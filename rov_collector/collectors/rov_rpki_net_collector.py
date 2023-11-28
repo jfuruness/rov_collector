@@ -15,7 +15,7 @@ class ROVRPKINetCollector(ROVCollector):
         rov_info: defaultdict[int, list[ROVInfo]] = defaultdict(list)
 
         # Open CSV
-        with self.json_path.open() as f:
+        with self.json_source_path.open() as f:
             data = json.load(f)
         for as_info in data:
             # Add ROV data
@@ -40,5 +40,5 @@ class ROVRPKINetCollector(ROVCollector):
         return rov_info
 
     @property
-    def json_path(self) -> Path:
+    def json_source_path(self) -> Path:
         return self.data_dir / "rov.rpki.net.json"
