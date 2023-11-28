@@ -1,4 +1,4 @@
-from .roa_collector import ROACollector
-from .roa import ROA
+from .rov_collector import ROVCollector
+from .collectors import TMACollector
 
-__all__ = ["ROACollector", "ROA"]
+__all__ = ["ROVCollector", "TMACollector"]

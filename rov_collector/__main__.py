@@ -1,8 +1,8 @@
-from .roa_collector import ROACollector
+from .rov_collector import ROVCollector
 
 
 def main():
-    ROACollector().run()
+    ROVCollector().run()
 
 
 if __name__ == "__main__":
