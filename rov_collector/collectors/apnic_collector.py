@@ -60,9 +60,7 @@ class APNICCollector(ROVCollector):
         """
 
         relevant_lines = self._get_relevant_lines(
-            url=self.URL + "rpki",
-            start_line_str="CC",
-            end_line_str="]);"
+            url=self.URL + "rpki", start_line_str="CC", end_line_str="]);"
         )
 
         urls = list()
@@ -72,12 +70,13 @@ class APNICCollector(ROVCollector):
             urls.append(self.URL + matches[0])
         return tuple(urls)
 
-    def _get_relevant_lines(self, url: str, start_line_str: str, end_line_str: str) -> list[str]:
+    def _get_relevant_lines(
+        self, url: str, start_line_str: str, end_line_str: str
+    ) -> list[str]:
         """Returns relevant lines for regex, since we can't use bs4 due to js"""
 
         resp = self.session.get(url)
         resp.raise_for_status()
-
 
         relevant_lines = list()
         started = False
@@ -99,7 +98,7 @@ class APNICCollector(ROVCollector):
         data = list()
         for line in relevant_lines:
             # Get ASN
-            matches = re.findall(r'>(AS\d+)<', line)
+            matches = re.findall(r">(AS\d+)<", line)
             # Sometimes AS is the name, in which case, three matches
             assert len(matches) in [1], line
             asn = int(matches[0].replace("AS", ""))
