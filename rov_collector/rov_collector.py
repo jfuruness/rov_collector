@@ -22,6 +22,10 @@ class ROVCollector(ABC):
         if request_cache_db_path is None:
             request_cache_db_path = Path("/tmp/") / f"{date.today()}.db"
         self.request_cache_db_path: Path = request_cache_db_path
+        self.session = requests_cache.CachedSession(self.requests_cache_db_path)
+
+    def __del__(self):
+        self.session.close()
 
     def run(self) -> None:
         """Download ROV data w/cached requests, add to old JSON file"""

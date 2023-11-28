@@ -125,6 +125,33 @@ Github links:
 * [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/tma_collector.py)
 * [emailed CSV](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/data/tma.csv)
 
+#### Cloudflare's isbgpsafeyet.com
+
+Explanation:
+
+This site by cloudflare allows you to test your ISP for ROV safety and stores this info.
+They also defined whether it filters all ASes or only peers
+
+Paper URL: [URL](https://isbgpsafeyet.com/)
+
+Paper data sources: [github](https://github.com/cloudflare/isbgpsafeyet.com/)
+
+Bibtex:
+
+```
+@misc{mixed_deployment_1,
+  title = {Is BGP Safe Yet?},
+  author = {Cloudflare},
+  url = {https://isbgpsafeyet.com/},
+  year = {2023},
+}
+```
+
+Github links:
+* [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/is_bgp_safe_yet_collector.py)
+* [CSV](https://raw.githubusercontent.com/cloudflare/isbgpsafeyet.com/master/data/operators.csv)
+
+
 ## History
 * [rov\_collector](#rov\_collector)
 
