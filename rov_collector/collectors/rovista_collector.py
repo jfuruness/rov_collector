@@ -23,7 +23,7 @@ class ROVISTACollector(ROVCollector):
                     ROVInfo(
                         asn=asn,
                         filter_type=FilterType.UNKNOWN,
-                        percent=row["ratio"],
+                        percent=float(row["ratio"]),
                         source=Source.ROVISTA,
                         metadata=dict(row),
                     )
@@ -53,4 +53,6 @@ class ROVISTACollector(ROVCollector):
         # see func docstr
         assert data["itemCount"] >= data["totalCount"]
         resp.close()
+        assert isinstance(data["data"], list), "for mypy"
+        assert all(isinstance(x, dict) for x in data["data"]), "for mypy"
         return data["data"]
