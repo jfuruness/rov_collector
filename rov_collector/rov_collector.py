@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from typing import Optional
 
-from requests_cache import requests_cache
+import requests_cache
 
 from .enums_dataclasses import ROVInfo
 
@@ -16,15 +16,15 @@ class ROVCollector(ABC):
     def __init__(
         self,
         json_path: Path = Path.home() / "Desktop" / "rov_info.json",
-        request_cache_db_path: Optional[Path] = None,
+        requests_cache_db_path: Optional[Path] = None,
     ):
         self.json_path: Path = json_path
 
         # By default keep requests cached for a single day
-        if request_cache_db_path is None:
-            request_cache_db_path = Path("/tmp/") / f"{date.today()}.db"
-        self.request_cache_db_path: Path = request_cache_db_path
-        self.session = requests_cache.CachedSession(self.requests_cache_db_path)
+        if requests_cache_db_path is None:
+            requests_cache_db_path = Path("/tmp/") / f"{date.today()}.db"
+        self.requests_cache_db_path: Path = requests_cache_db_path
+        self.session = requests_cache.CachedSession(str(self.requests_cache_db_path))
 
     def __del__(self):
         self.session.close()

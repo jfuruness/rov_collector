@@ -22,7 +22,7 @@ class TestROVCollector:
         dummy_entry = self._save_dummy_entry(json_path)
 
         collector = ROVCollectorCls(
-            json_path=json_path, request_cache_db_path=tmp_path / "request_cache.db"
+            json_path=json_path, requests_cache_db_path=tmp_path / "requests_cache.db"
         )
         # Ensure ROV info is gathered
         rov_info = collector._collect_rov_info()

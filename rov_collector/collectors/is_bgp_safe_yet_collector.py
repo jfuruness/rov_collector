@@ -24,7 +24,7 @@ class IsBGPSafeYetCollector(ROVCollector):
             asn = int(row["asn"].strip())
 
             if "filtering peers only" in str(row["details"]):
-                filter_type = FilterType.PEERS_ONLY
+                filter_type = FilterType.PEERS
             elif "filtering" in str(row["details"]):
                 filter_type = FilterType.ALL
             elif "unsafe" in row["status"]:
