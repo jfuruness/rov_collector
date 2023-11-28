@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 from collections import defaultdict
-from dataclasses import asdict
 from datetime import date
 import json
 from pathlib import Path
@@ -38,7 +37,7 @@ class ROVCollector(ABC):
         # Add new ROV info to the dictionary
         for asn, rov_info_list in new_rov_info.items():
             rov_info_list_json = [x.to_json() for x in rov_info_list]
-            rov_info[[str(asn)] = rov_info.get(str(asn), list()) + rov_info_list_json
+            rov_info[str(asn)] = rov_info.get(str(asn), list()) + rov_info_list_json
 
         # Save the dictionary to a JSON
         with self.json_path.open("w") as f:
