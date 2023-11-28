@@ -151,6 +151,48 @@ Github links:
 * [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/is_bgp_safe_yet_collector.py)
 * [CSV](https://raw.githubusercontent.com/cloudflare/isbgpsafeyet.com/master/data/operators.csv)
 
+#### Measuring RPKI Route Origin Validation Deployment
+
+Explanation:
+
+At the time of publication this was one of the largest data sources for ROV ASes.
+They also had a nice website listing out all the ROV AS data.
+The website was last updated in 2020, so I'm not worried about a live feed.
+Instead I've just right clicked inspect on their page using google chrome,
+then clicked on the network tab,
+reloaded the page,
+and clicked on the asn query,
+and then clicked on response,
+and copy pasted this locally.
+I've checked that it's the same as the page.
+
+Paper URL: [URL](https://rov.rpki.net/paper)
+
+Paper data sources: [github](https://github.com/RPKI/rov-measurement-code), [website](https://rov.rpki.net/)
+
+Bibtex:
+
+```
+@article{mixed_deployment_2,
+title={Towards a rigorous methodology for measuring adoption of rpki route validation and filtering},
+author={Reuter, Andreas and Bush, Randy and Cunha, It{^a}lo and Katz-Bassett, Ethan and Schmidt, Thomas C and W{"a}hlisch, Matthias},
+journal={ACM SIGCOMM Computer Communication Review},
+volume={48},
+number={1},
+pages={19--27},
+year={2018},
+publisher={ACM}
+}
+```
+
+Github links:
+* [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/rpki_collector.py)
+* [emailed CSV](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/data/rov.rpki.net.json)
+
+
+
+
+
 
 ## History
 * [rov\_collector](#rov\_collector)

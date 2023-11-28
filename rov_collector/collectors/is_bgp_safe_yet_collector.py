@@ -7,7 +7,7 @@ from rov_collector.rov_collector import ROVCollector
 
 
 class IsBGPSafeYetCollector(ROVCollector):
-    """Downloads ROV data for 'Revisiting RPKI... (source in README)"""
+    """Downloads ROV data for 'isbgpsafeyet.com' (source in README)"""
 
     URL = (
         "https://raw.githubusercontent.com/cloudflare/isbgpsafeyet.com/"

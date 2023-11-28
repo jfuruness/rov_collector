@@ -1,0 +1,3090 @@
+[
+    {
+        "asn": 50304,
+        "max_confidence": 0.878788,
+        "name": "BLIX, NO",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.586466,
+                "data_dates": 133,
+                "ip": "178.255.145.243",
+                "last_marked": "2020-02-08",
+                "last_measured": "2020-02-08",
+                "marked_dates": 78
+            },
+            {
+                "confidence": 0.878788,
+                "data_dates": 198,
+                "ip": "31.169.49.228",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 174
+            }
+        ]
+    },
+    {
+        "asn": 199938,
+        "max_confidence": 0.870748,
+        "name": "NETZWERGE, DE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.870748,
+                "data_dates": 147,
+                "ip": "80.249.211.237",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 128
+            }
+        ]
+    },
+    {
+        "asn": 31019,
+        "max_confidence": 0.968421,
+        "name": "MEANIE Meanie # Transits and route servers:, NL",
+        "notes": "Filtering Via AMSIX Route Server;Filtering;",
+        "vps": [
+            {
+                "confidence": 0.81,
+                "data_dates": 700,
+                "ip": "91.228.151.1",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 567
+            },
+            {
+                "confidence": 0.968421,
+                "data_dates": 380,
+                "ip": "80.249.211.199",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 368
+            }
+        ]
+    },
+    {
+        "asn": 1798,
+        "max_confidence": 0.117986,
+        "name": "OREGON - State of Oregon, US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.117986,
+                "data_dates": 695,
+                "ip": "198.32.195.23",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 82
+            }
+        ]
+    },
+    {
+        "asn": 34177,
+        "max_confidence": 0.857143,
+        "name": "CELESTE-AS CELESTE - Internet services provider, FR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.857143,
+                "data_dates": 448,
+                "ip": "37.49.236.32",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 384
+            }
+        ]
+    },
+    {
+        "asn": 42541,
+        "max_confidence": 0.930693,
+        "name": "FIBERBY, DK",
+        "notes": "Filtering Via AMSIX Route Server;Filtering;",
+        "vps": [
+            {
+                "confidence": 0.930693,
+                "data_dates": 101,
+                "ip": "80.249.212.84",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 94
+            },
+            {
+                "confidence": 0.909953,
+                "data_dates": 211,
+                "ip": "193.239.118.106",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 192
+            },
+            {
+                "confidence": 0.877358,
+                "data_dates": 424,
+                "ip": "193.104.135.79",
+                "last_marked": "2020-05-20",
+                "last_measured": "2020-05-20",
+                "marked_dates": 372
+            },
+            {
+                "confidence": 0.892308,
+                "data_dates": 585,
+                "ip": "193.104.135.78",
+                "last_marked": "2020-05-20",
+                "last_measured": "2020-05-20",
+                "marked_dates": 522
+            }
+        ]
+    },
+    {
+        "asn": 49752,
+        "max_confidence": 0.00361011,
+        "name": "KONTSTR-AS, RU",
+        "notes": "",
+        "vps": [
+            {
+                "confidence": 0.00361011,
+                "data_dates": 277,
+                "ip": "141.98.136.105",
+                "last_marked": "2019-11-25",
+                "last_measured": "2020-08-31",
+                "marked_dates": 1
+            }
+        ]
+    },
+    {
+        "asn": 5394,
+        "max_confidence": 0.952113,
+        "name": "UNIDATA Unidata S.p.A. NOC - Italy, IT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.952113,
+                "data_dates": 355,
+                "ip": "80.249.210.29",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 338
+            }
+        ]
+    },
+    {
+        "asn": 25091,
+        "max_confidence": 0.868421,
+        "name": "IP-MAX, CH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.856223,
+                "data_dates": 466,
+                "ip": "91.206.52.117",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 399
+            },
+            {
+                "confidence": 0.852679,
+                "data_dates": 448,
+                "ip": "37.49.237.83",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 382
+            },
+            {
+                "confidence": 0.868421,
+                "data_dates": 456,
+                "ip": "192.65.185.244",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 396
+            },
+            {
+                "confidence": 0.839357,
+                "data_dates": 498,
+                "ip": "195.208.209.93",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 418
+            }
+        ]
+    },
+    {
+        "asn": 57111,
+        "max_confidence": 0.80814,
+        "name": "ALTITUD, IT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.80814,
+                "data_dates": 344,
+                "ip": "195.66.227.132",
+                "last_marked": "2020-02-27",
+                "last_measured": "2020-02-27",
+                "marked_dates": 278
+            },
+            {
+                "confidence": 0.45098,
+                "data_dates": 102,
+                "ip": "80.81.194.92",
+                "last_marked": "2019-12-18",
+                "last_measured": "2019-12-19",
+                "marked_dates": 46
+            },
+            {
+                "confidence": 0.28771,
+                "data_dates": 358,
+                "ip": "217.29.67.13",
+                "last_marked": "2020-02-26",
+                "last_measured": "2020-08-31",
+                "marked_dates": 103
+            },
+            {
+                "confidence": 0.701493,
+                "data_dates": 134,
+                "ip": "80.249.213.239",
+                "last_marked": "2020-02-26",
+                "last_measured": "2020-04-20",
+                "marked_dates": 94
+            },
+            {
+                "confidence": 0.581699,
+                "data_dates": 153,
+                "ip": "37.49.236.43",
+                "last_marked": "2020-02-21",
+                "last_measured": "2020-02-21",
+                "marked_dates": 89
+            }
+        ]
+    },
+    {
+        "asn": 327960,
+        "max_confidence": 0.0245098,
+        "name": "PC-MANIACS, ZA",
+        "notes": "Filtering Via AMSIX Route Server;Filtering;",
+        "vps": [
+            {
+                "confidence": 0.0245098,
+                "data_dates": 204,
+                "ip": "196.60.8.22",
+                "last_marked": "2020-07-07",
+                "last_measured": "2020-08-31",
+                "marked_dates": 5
+            }
+        ]
+    },
+    {
+        "asn": 24875,
+        "max_confidence": 0.942105,
+        "name": "NOVOSERVE-AS, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.942105,
+                "data_dates": 380,
+                "ip": "80.249.208.126",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 358
+            }
+        ]
+    },
+    {
+        "asn": 8218,
+        "max_confidence": 0.118026,
+        "name": "NEO-ASN legacy Neotelecoms, FR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.118026,
+                "data_dates": 466,
+                "ip": "91.206.52.116",
+                "last_marked": "2018-07-13",
+                "last_measured": "2020-08-31",
+                "marked_dates": 55
+            },
+            {
+                "confidence": 0.111607,
+                "data_dates": 448,
+                "ip": "37.49.236.1",
+                "last_marked": "2018-07-13",
+                "last_measured": "2020-08-31",
+                "marked_dates": 50
+            },
+            {
+                "confidence": 0.111607,
+                "data_dates": 448,
+                "ip": "37.49.232.7",
+                "last_marked": "2018-07-13",
+                "last_measured": "2020-08-31",
+                "marked_dates": 50
+            }
+        ]
+    },
+    {
+        "asn": 6939,
+        "max_confidence": 0.97644,
+        "name": "HURRICANE - Hurricane Electric, Inc., US",
+        "notes": "Filtering Via AMSIX Route Server;Filtering;",
+        "vps": [
+            {
+                "confidence": 0.915954,
+                "data_dates": 702,
+                "ip": "64.71.137.241",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 643
+            },
+            {
+                "confidence": 0.911411,
+                "data_dates": 666,
+                "ip": "195.66.224.21",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 607
+            },
+            {
+                "confidence": 0.97644,
+                "data_dates": 382,
+                "ip": "196.223.21.74",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 373
+            },
+            {
+                "confidence": 0.915954,
+                "data_dates": 702,
+                "ip": "198.32.132.75",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 643
+            },
+            {
+                "confidence": 0.963446,
+                "data_dates": 383,
+                "ip": "206.41.108.23",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 369
+            },
+            {
+                "confidence": 0.949799,
+                "data_dates": 498,
+                "ip": "206.126.236.37",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 473
+            },
+            {
+                "confidence": 0.911491,
+                "data_dates": 644,
+                "ip": "198.32.176.20",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 587
+            }
+        ]
+    },
+    {
+        "asn": 20764,
+        "max_confidence": 0.305907,
+        "name": "RASCOM-AS CJSC RASCOM ISP, RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.267068,
+                "data_dates": 498,
+                "ip": "195.208.208.223",
+                "last_marked": "2018-08-04",
+                "last_measured": "2020-08-31",
+                "marked_dates": 133
+            },
+            {
+                "confidence": 0.305907,
+                "data_dates": 474,
+                "ip": "194.68.123.188",
+                "last_marked": "2018-09-11",
+                "last_measured": "2020-08-31",
+                "marked_dates": 145
+            }
+        ]
+    },
+    {
+        "asn": 13786,
+        "max_confidence": 0.0416667,
+        "name": "CODEANDTHEORY - Code & Theory, LLC., US",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.0416667,
+                "data_dates": 264,
+                "ip": "187.16.217.161",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 11
+            }
+        ]
+    },
+    {
+        "asn": 20766,
+        "max_confidence": 0.894118,
+        "name": "GITOYEN-MAIN-AS The main Autonomous System of Gitoyen (Paris, France)., FR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.894118,
+                "data_dates": 85,
+                "ip": "37.49.236.190",
+                "last_marked": "2020-07-15",
+                "last_measured": "2020-07-16",
+                "marked_dates": 76
+            }
+        ]
+    },
+    {
+        "asn": 49697,
+        "max_confidence": 0.0106762,
+        "name": "JOEY-NETWORK Joey Julian Koenig, DE",
+        "notes": "Filtering Via AMSIX Route Server;Filtering;",
+        "vps": [
+            {
+                "confidence": 0.0106762,
+                "data_dates": 281,
+                "ip": "80.81.195.241",
+                "last_marked": "2019-02-27",
+                "last_measured": "2020-08-31",
+                "marked_dates": 3
+            }
+        ]
+    },
+    {
+        "asn": 5413,
+        "max_confidence": 0.00429185,
+        "name": "AS5413, GB",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.00429185,
+                "data_dates": 699,
+                "ip": "194.153.0.253",
+                "last_marked": "2020-08-20",
+                "last_measured": "2020-08-31",
+                "marked_dates": 3
+            },
+            {
+                "confidence": 0.00301205,
+                "data_dates": 664,
+                "ip": "195.66.224.29",
+                "last_marked": "2020-08-20",
+                "last_measured": "2020-08-31",
+                "marked_dates": 2
+            },
+            {
+                "confidence": 0.00301205,
+                "data_dates": 664,
+                "ip": "195.66.236.29",
+                "last_marked": "2020-08-20",
+                "last_measured": "2020-08-31",
+                "marked_dates": 2
+            }
+        ]
+    },
+    {
+        "asn": 266534,
+        "max_confidence": 0.0428571,
+        "name": "Antonio Cesar Azevedo - ME, BR",
+        "notes": "",
+        "vps": [
+            {
+                "confidence": 0.0428571,
+                "data_dates": 70,
+                "ip": "187.16.218.250",
+                "last_marked": "2018-11-04",
+                "last_measured": "2018-11-28",
+                "marked_dates": 3
+            }
+        ]
+    },
+    {
+        "asn": 45352,
+        "max_confidence": 0.885222,
+        "name": "IPSERVERONE-AS-AP IP ServerOne Solutions Sdn Bhd, MY",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.885222,
+                "data_dates": 697,
+                "ip": "210.5.41.225",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 617
+            }
+        ]
+    },
+    {
+        "asn": 10026,
+        "max_confidence": 0.85,
+        "name": "PACNET Pacnet Global Ltd, JP",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.85,
+                "data_dates": 320,
+                "ip": "202.147.61.12",
+                "last_marked": "2019-02-12",
+                "last_measured": "2019-02-12",
+                "marked_dates": 272
+            },
+            {
+                "confidence": 0.836538,
+                "data_dates": 312,
+                "ip": "45.127.172.44",
+                "last_marked": "2019-02-12",
+                "last_measured": "2019-02-12",
+                "marked_dates": 261
+            }
+        ]
+    },
+    {
+        "asn": 47147,
+        "max_confidence": 0.927336,
+        "name": "AS-ANX ANEXIA Internetdienstleistungs GmbH, AT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.704188,
+                "data_dates": 382,
+                "ip": "193.203.0.19",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 269
+            },
+            {
+                "confidence": 0.926421,
+                "data_dates": 299,
+                "ip": "91.206.52.5",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 277
+            },
+            {
+                "confidence": 0.690773,
+                "data_dates": 401,
+                "ip": "80.81.195.166",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 277
+            },
+            {
+                "confidence": 0.927336,
+                "data_dates": 289,
+                "ip": "80.249.213.102",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 268
+            }
+        ]
+    },
+    {
+        "asn": 8492,
+        "max_confidence": 0.552217,
+        "name": "OBIT-AS `OBIT` Ltd., RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.552217,
+                "data_dates": 699,
+                "ip": "85.114.0.217",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 386
+            }
+        ]
+    },
+    {
+        "asn": 49709,
+        "max_confidence": 1.0,
+        "name": "VIDEOBYTE, IT",
+        "notes": "",
+        "vps": [
+            {
+                "confidence": 1.0,
+                "data_dates": 37,
+                "ip": "217.29.66.219",
+                "last_marked": "2020-03-08",
+                "last_measured": "2020-03-08",
+                "marked_dates": 37
+            }
+        ]
+    },
+    {
+        "asn": 12637,
+        "max_confidence": 0.856209,
+        "name": "SEEWEB Web hosting, colocation and cloud services, IT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.856209,
+                "data_dates": 459,
+                "ip": "217.29.66.86",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 393
+            }
+        ]
+    },
+    {
+        "asn": 3130,
+        "max_confidence": 0.00434783,
+        "name": "RG-BIWA - RGnet, LLC, US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.00434783,
+                "data_dates": 690,
+                "ip": "147.28.7.1",
+                "last_marked": "2018-02-01",
+                "last_measured": "2020-08-31",
+                "marked_dates": 3
+            }
+        ]
+    },
+    {
+        "asn": 8758,
+        "max_confidence": 0.753754,
+        "name": "IWAY, CH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.555794,
+                "data_dates": 466,
+                "ip": "91.206.52.6",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 259
+            },
+            {
+                "confidence": 0.753754,
+                "data_dates": 333,
+                "ip": "212.25.27.44",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 251
+            }
+        ]
+    },
+    {
+        "asn": 49463,
+        "max_confidence": 0.4,
+        "name": "ASN-LNC, FR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.4,
+                "data_dates": 160,
+                "ip": "37.49.236.145",
+                "last_marked": "2018-08-04",
+                "last_measured": "2018-08-19",
+                "marked_dates": 64
+            }
+        ]
+    },
+    {
+        "asn": 3252,
+        "max_confidence": 0.810976,
+        "name": "FBRX-AS, GB",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.810976,
+                "data_dates": 164,
+                "ip": "195.208.208.63",
+                "last_marked": "2018-08-04",
+                "last_measured": "2018-08-19",
+                "marked_dates": 133
+            }
+        ]
+    },
+    {
+        "asn": 43578,
+        "max_confidence": 0.00235849,
+        "name": "BITNAP bitNAP Datacenter 01 Barcelona, ES",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.00235849,
+                "data_dates": 424,
+                "ip": "193.242.98.160",
+                "last_marked": "2020-08-28",
+                "last_measured": "2020-08-31",
+                "marked_dates": 1
+            }
+        ]
+    },
+    {
+        "asn": 12859,
+        "max_confidence": 0.947368,
+        "name": "NL-BIT BIT BV, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.947368,
+                "data_dates": 380,
+                "ip": "80.249.208.35",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 360
+            },
+            {
+                "confidence": 0.854305,
+                "data_dates": 453,
+                "ip": "80.249.208.200",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 387
+            }
+        ]
+    },
+    {
+        "asn": 28220,
+        "max_confidence": 0.028133,
+        "name": "CABO SERVICOS DE TELECOMUNICACOES LTDA, BR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.028133,
+                "data_dates": 391,
+                "ip": "187.16.216.75",
+                "last_marked": "2020-06-26",
+                "last_measured": "2020-06-26",
+                "marked_dates": 11
+            }
+        ]
+    },
+    {
+        "asn": 37697,
+        "max_confidence": 0.00961538,
+        "name": "webmasters, MZ",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.00961538,
+                "data_dates": 104,
+                "ip": "196.60.9.84",
+                "last_marked": "2020-06-05",
+                "last_measured": "2020-08-07",
+                "marked_dates": 1
+            }
+        ]
+    },
+    {
+        "asn": 23106,
+        "max_confidence": 0.191781,
+        "name": "Cemig Telecomunica\u00e7\u00f5es SA, BR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.19084,
+                "data_dates": 262,
+                "ip": "187.16.217.110",
+                "last_marked": "2018-07-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 50
+            },
+            {
+                "confidence": 0.191781,
+                "data_dates": 511,
+                "ip": "187.16.217.59",
+                "last_marked": "2018-11-20",
+                "last_measured": "2020-08-31",
+                "marked_dates": 98
+            }
+        ]
+    },
+    {
+        "asn": 53828,
+        "max_confidence": 0.127143,
+        "name": "NITEL - NETWORK INNOVATIONS, INC., US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.126781,
+                "data_dates": 702,
+                "ip": "198.32.132.155",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 89
+            },
+            {
+                "confidence": 0.127143,
+                "data_dates": 700,
+                "ip": "208.115.136.220",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 89
+            }
+        ]
+    },
+    {
+        "asn": 39351,
+        "max_confidence": 0.756798,
+        "name": "ESAB-AS, SE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.756798,
+                "data_dates": 662,
+                "ip": "193.138.216.164",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 501
+            }
+        ]
+    },
+    {
+        "asn": 32097,
+        "max_confidence": 0.294118,
+        "name": "WII-KC - WholeSale Internet, Inc., US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.294118,
+                "data_dates": 289,
+                "ip": "69.30.209.253",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 85
+            }
+        ]
+    },
+    {
+        "asn": 25160,
+        "max_confidence": 0.829646,
+        "name": "VORBOSS_AS, GB",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.829646,
+                "data_dates": 452,
+                "ip": "195.66.225.216",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 375
+            }
+        ]
+    },
+    {
+        "asn": 50763,
+        "max_confidence": 0.801105,
+        "name": "MCKAYCOM, GB",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.801105,
+                "data_dates": 543,
+                "ip": "80.249.210.99",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 435
+            }
+        ]
+    },
+    {
+        "asn": 1103,
+        "max_confidence": 0.957895,
+        "name": "SURFNET-NL SURFnet, The Netherlands, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.957895,
+                "data_dates": 380,
+                "ip": "80.249.208.50",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 364
+            },
+            {
+                "confidence": 0.808471,
+                "data_dates": 543,
+                "ip": "80.249.208.34",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 439
+            }
+        ]
+    },
+    {
+        "asn": 47441,
+        "max_confidence": 0.666667,
+        "name": "TRUNKM, RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.339623,
+                "data_dates": 159,
+                "ip": "195.208.210.33",
+                "last_marked": "2019-12-06",
+                "last_measured": "2020-04-16",
+                "marked_dates": 54
+            },
+            {
+                "confidence": 0.666667,
+                "data_dates": 48,
+                "ip": "80.81.193.128",
+                "last_marked": "2019-12-06",
+                "last_measured": "2019-12-06",
+                "marked_dates": 32
+            },
+            {
+                "confidence": 0.666667,
+                "data_dates": 30,
+                "ip": "80.249.213.213",
+                "last_marked": "2019-12-06",
+                "last_measured": "2019-12-06",
+                "marked_dates": 20
+            }
+        ]
+    },
+    {
+        "asn": 20562,
+        "max_confidence": 0.863839,
+        "name": "OPEN-PEERING-AS Open Peering Initiative, Amsterdam, The Netherlands, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.863839,
+                "data_dates": 448,
+                "ip": "193.239.116.17",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 387
+            },
+            {
+                "confidence": 0.863839,
+                "data_dates": 448,
+                "ip": "80.249.208.189",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 387
+            }
+        ]
+    },
+    {
+        "asn": 852,
+        "max_confidence": 0.663551,
+        "name": "ASN852 - TELUS Communications Inc., CA",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.663551,
+                "data_dates": 107,
+                "ip": "154.11.15.28",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 71
+            },
+            {
+                "confidence": 0.126074,
+                "data_dates": 698,
+                "ip": "208.115.136.67",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 88
+            },
+            {
+                "confidence": 0.12301,
+                "data_dates": 691,
+                "ip": "154.11.12.212",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 85
+            }
+        ]
+    },
+    {
+        "asn": 60501,
+        "max_confidence": 0.909836,
+        "name": "SIRIUSTEC-, IT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.888476,
+                "data_dates": 269,
+                "ip": "80.249.213.107",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 239
+            },
+            {
+                "confidence": 0.891791,
+                "data_dates": 268,
+                "ip": "195.66.226.84",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 239
+            },
+            {
+                "confidence": 0.909836,
+                "data_dates": 244,
+                "ip": "91.206.52.219",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 222
+            },
+            {
+                "confidence": 0.882143,
+                "data_dates": 280,
+                "ip": "80.81.195.14",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 247
+            },
+            {
+                "confidence": 0.878788,
+                "data_dates": 33,
+                "ip": "185.30.64.101",
+                "last_marked": "2020-01-23",
+                "last_measured": "2020-01-23",
+                "marked_dates": 29
+            }
+        ]
+    },
+    {
+        "asn": 43607,
+        "max_confidence": 0.0344828,
+        "name": "TKK, PL",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.0344828,
+                "data_dates": 29,
+                "ip": "194.50.99.71",
+                "last_marked": "2020-02-24",
+                "last_measured": "2020-03-10",
+                "marked_dates": 1
+            }
+        ]
+    },
+    {
+        "asn": 9304,
+        "max_confidence": 0.836601,
+        "name": "HUTCHISON-AS-AP Hutchison Global Communications, HK",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.836601,
+                "data_dates": 459,
+                "ip": "198.32.160.39",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 384
+            }
+        ]
+    },
+    {
+        "asn": 28260,
+        "max_confidence": 0.25,
+        "name": "ALTA REDE CORPORATE NETWORK TELECOM LTDA - EPP, BR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.25,
+                "data_dates": 408,
+                "ip": "187.16.221.189",
+                "last_marked": "2019-11-12",
+                "last_measured": "2020-08-05",
+                "marked_dates": 102
+            }
+        ]
+    },
+    {
+        "asn": 50300,
+        "max_confidence": 0.753754,
+        "name": "CUSTDC, GB",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.753754,
+                "data_dates": 333,
+                "ip": "176.12.110.8",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 251
+            }
+        ]
+    },
+    {
+        "asn": 8283,
+        "max_confidence": 0.935841,
+        "name": "COLOCLUE-AS Netwerkvereniging Coloclue, Amsterdam, Netherlands, NL",
+        "notes": "Filtering Via AMSIX Route Server;Filtering;",
+        "vps": [
+            {
+                "confidence": 0.935841,
+                "data_dates": 452,
+                "ip": "80.249.211.161",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 423
+            }
+        ]
+    },
+    {
+        "asn": 37468,
+        "max_confidence": 0.925234,
+        "name": "ANGOLA-CABLES, AO",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.743421,
+                "data_dates": 456,
+                "ip": "206.126.238.56",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 339
+            },
+            {
+                "confidence": 0.754717,
+                "data_dates": 689,
+                "ip": "196.60.8.60",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 520
+            },
+            {
+                "confidence": 0.925234,
+                "data_dates": 107,
+                "ip": "187.16.221.193",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 99
+            }
+        ]
+    },
+    {
+        "asn": 267613,
+        "max_confidence": 0.133333,
+        "name": "ELETRONET S.A., BR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.133333,
+                "data_dates": 345,
+                "ip": "195.66.226.39",
+                "last_marked": "2019-09-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 46
+            },
+            {
+                "confidence": 0.00974026,
+                "data_dates": 308,
+                "ip": "187.16.220.80",
+                "last_marked": "2019-09-19",
+                "last_measured": "2020-08-31",
+                "marked_dates": 3
+            },
+            {
+                "confidence": 0.126984,
+                "data_dates": 378,
+                "ip": "80.249.213.223",
+                "last_marked": "2019-10-02",
+                "last_measured": "2020-08-31",
+                "marked_dates": 48
+            }
+        ]
+    },
+    {
+        "asn": 56665,
+        "max_confidence": 0.881944,
+        "name": "ASN-TELINDUS-TELECOM, LU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.810526,
+                "data_dates": 380,
+                "ip": "31.204.91.150",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 308
+            },
+            {
+                "confidence": 0.881944,
+                "data_dates": 288,
+                "ip": "37.49.237.46",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 254
+            }
+        ]
+    },
+    {
+        "asn": 52320,
+        "max_confidence": 0.691589,
+        "name": "GlobeNet Cabos Submarinos Colombia, S.A.S., CO",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.691589,
+                "data_dates": 107,
+                "ip": "45.184.144.128",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 74
+            },
+            {
+                "confidence": 0.617834,
+                "data_dates": 157,
+                "ip": "198.32.124.254",
+                "last_marked": "2019-02-12",
+                "last_measured": "2019-10-31",
+                "marked_dates": 97
+            },
+            {
+                "confidence": 0.367089,
+                "data_dates": 553,
+                "ip": "206.41.108.60",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 203
+            },
+            {
+                "confidence": 0.688679,
+                "data_dates": 106,
+                "ip": "45.6.52.193",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 73
+            },
+            {
+                "confidence": 0.283401,
+                "data_dates": 247,
+                "ip": "198.32.242.254",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 70
+            }
+        ]
+    },
+    {
+        "asn": 263009,
+        "max_confidence": 0.96,
+        "name": "FORTE TELECOM LTDA., BR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.96,
+                "data_dates": 25,
+                "ip": "45.184.144.161",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 24
+            },
+            {
+                "confidence": 0.950495,
+                "data_dates": 101,
+                "ip": "187.16.218.226",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 96
+            },
+            {
+                "confidence": 0.96,
+                "data_dates": 25,
+                "ip": "45.6.52.186",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 24
+            }
+        ]
+    },
+    {
+        "asn": 14907,
+        "max_confidence": 0.880795,
+        "name": "WIKIMEDIA - Wikimedia Foundation Inc., US",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.880795,
+                "data_dates": 302,
+                "ip": "80.249.209.176",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 266
+            }
+        ]
+    },
+    {
+        "asn": 199524,
+        "max_confidence": 0.96,
+        "name": "GCORE, AT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.96,
+                "data_dates": 25,
+                "ip": "80.249.210.150",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 24
+            }
+        ]
+    },
+    {
+        "asn": 3303,
+        "max_confidence": 0.0515021,
+        "name": "SWISSCOM Swisscom (Switzerland) Ltd, CH",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.0515021,
+                "data_dates": 699,
+                "ip": "217.192.89.50",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 36
+            }
+        ]
+    },
+    {
+        "asn": 42861,
+        "max_confidence": 0.886957,
+        "name": "FOTONTELECOM Website: http://www.fotontel.ru, RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.72,
+                "data_dates": 25,
+                "ip": "77.91.112.1",
+                "last_marked": "2020-04-29",
+                "last_measured": "2020-04-30",
+                "marked_dates": 18
+            },
+            {
+                "confidence": 0.886957,
+                "data_dates": 115,
+                "ip": "80.81.195.167",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 102
+            },
+            {
+                "confidence": 0.85,
+                "data_dates": 20,
+                "ip": "195.208.208.216",
+                "last_marked": "2020-05-28",
+                "last_measured": "2020-05-28",
+                "marked_dates": 17
+            }
+        ]
+    },
+    {
+        "asn": 41327,
+        "max_confidence": 0.644599,
+        "name": "ASTECH, TJ",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.644599,
+                "data_dates": 287,
+                "ip": "217.29.67.51",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 185
+            }
+        ]
+    },
+    {
+        "asn": 43376,
+        "max_confidence": 0.894737,
+        "name": "DOT, RO",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.894737,
+                "data_dates": 133,
+                "ip": "80.249.212.132",
+                "last_marked": "2020-04-01",
+                "last_measured": "2020-04-02",
+                "marked_dates": 119
+            }
+        ]
+    },
+    {
+        "asn": 38001,
+        "max_confidence": 0.7,
+        "name": "NEWMEDIAEXPRESS-AS-AP NewMedia Express Pte Ltd, SG",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.034965,
+                "data_dates": 143,
+                "ip": "202.150.221.37",
+                "last_marked": "2020-03-28",
+                "last_measured": "2020-04-02",
+                "marked_dates": 5
+            },
+            {
+                "confidence": 0.338645,
+                "data_dates": 251,
+                "ip": "202.150.221.33",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 85
+            },
+            {
+                "confidence": 0.7,
+                "data_dates": 60,
+                "ip": "195.66.227.129",
+                "last_marked": "2018-08-04",
+                "last_measured": "2018-08-19",
+                "marked_dates": 42
+            }
+        ]
+    },
+    {
+        "asn": 50673,
+        "max_confidence": 0.851724,
+        "name": "SERVERIUS-AS, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.851724,
+                "data_dates": 290,
+                "ip": "80.249.210.70",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 247
+            }
+        ]
+    },
+    {
+        "asn": 1140,
+        "max_confidence": 0.962667,
+        "name": "SIDN, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.962667,
+                "data_dates": 375,
+                "ip": "80.249.208.49",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 361
+            }
+        ]
+    },
+    {
+        "asn": 57463,
+        "max_confidence": 0.855051,
+        "name": "NETIX, BG",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.855051,
+                "data_dates": 683,
+                "ip": "87.121.64.4",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 584
+            }
+        ]
+    },
+    {
+        "asn": 28792,
+        "max_confidence": 0.266667,
+        "name": "PUBLIC-INTERNET, GB",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.266667,
+                "data_dates": 75,
+                "ip": "195.66.224.131",
+                "last_marked": "2020-01-22",
+                "last_measured": "2020-08-31",
+                "marked_dates": 20
+            },
+            {
+                "confidence": 0.266667,
+                "data_dates": 75,
+                "ip": "5.57.80.174",
+                "last_marked": "2020-01-22",
+                "last_measured": "2020-08-31",
+                "marked_dates": 20
+            }
+        ]
+    },
+    {
+        "asn": 37497,
+        "max_confidence": 0.846269,
+        "name": "Network-Platforms, ZA",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.846269,
+                "data_dates": 670,
+                "ip": "196.60.8.185",
+                "last_marked": "2020-07-29",
+                "last_measured": "2020-08-31",
+                "marked_dates": 567
+            },
+            {
+                "confidence": 0.84186,
+                "data_dates": 645,
+                "ip": "195.66.224.25",
+                "last_marked": "2020-07-29",
+                "last_measured": "2020-08-31",
+                "marked_dates": 543
+            },
+            {
+                "confidence": 0.826797,
+                "data_dates": 306,
+                "ip": "196.223.14.86",
+                "last_marked": "2019-08-13",
+                "last_measured": "2019-08-15",
+                "marked_dates": 253
+            }
+        ]
+    },
+    {
+        "asn": 203900,
+        "max_confidence": 0.683544,
+        "name": "-Reserved AS-, ZZ",
+        "notes": "",
+        "vps": [
+            {
+                "confidence": 0.683544,
+                "data_dates": 79,
+                "ip": "193.239.118.233",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 54
+            }
+        ]
+    },
+    {
+        "asn": 61568,
+        "max_confidence": 0.0104712,
+        "name": "FSF TECNOLOGIA LTDA ME, BR",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.0104712,
+                "data_dates": 191,
+                "ip": "190.15.124.18",
+                "last_marked": "2020-08-16",
+                "last_measured": "2020-08-31",
+                "marked_dates": 2
+            }
+        ]
+    },
+    {
+        "asn": 24961,
+        "max_confidence": 0.635135,
+        "name": "MYLOC-AS, DE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.635135,
+                "data_dates": 296,
+                "ip": "80.81.192.162",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 188
+            }
+        ]
+    },
+    {
+        "asn": 25220,
+        "max_confidence": 0.852321,
+        "name": "GLOBALNOC-AS equada network GmbH, DE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.852321,
+                "data_dates": 474,
+                "ip": "80.81.194.140",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 404
+            }
+        ]
+    },
+    {
+        "asn": 25227,
+        "max_confidence": 0.00234742,
+        "name": "ASN-AVANTEL-MSK Located in Moscow, Russia., RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.00234742,
+                "data_dates": 426,
+                "ip": "195.208.209.174",
+                "last_marked": "2018-01-01",
+                "last_measured": "2020-06-19",
+                "marked_dates": 1
+            }
+        ]
+    },
+    {
+        "asn": 36236,
+        "max_confidence": 0.893162,
+        "name": "NETACTUATE - NetActuate, Inc, US",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.893162,
+                "data_dates": 702,
+                "ip": "208.111.38.185",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 627
+            }
+        ]
+    },
+    {
+        "asn": 48526,
+        "max_confidence": 0.522565,
+        "name": "ASN-TANGO Tango S.A., LU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.4875,
+                "data_dates": 160,
+                "ip": "37.49.237.46",
+                "last_marked": "2018-08-04",
+                "last_measured": "2018-08-19",
+                "marked_dates": 78
+            },
+            {
+                "confidence": 0.522565,
+                "data_dates": 421,
+                "ip": "212.66.71.4",
+                "last_marked": "2019-02-12",
+                "last_measured": "2020-08-31",
+                "marked_dates": 220
+            }
+        ]
+    },
+    {
+        "asn": 58511,
+        "max_confidence": 0.974922,
+        "name": "ANYCAST-GLOBAL-BACKBONE Anycast Global Backbone, AU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.77496,
+                "data_dates": 631,
+                "ip": "45.127.172.149",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 489
+            },
+            {
+                "confidence": 0.974922,
+                "data_dates": 319,
+                "ip": "103.247.3.98",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 311
+            },
+            {
+                "confidence": 0.974922,
+                "data_dates": 319,
+                "ip": "103.247.3.75",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 311
+            },
+            {
+                "confidence": 0.974922,
+                "data_dates": 319,
+                "ip": "103.247.3.99",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 311
+            },
+            {
+                "confidence": 0.974922,
+                "data_dates": 319,
+                "ip": "103.247.3.92",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 311
+            },
+            {
+                "confidence": 0.626741,
+                "data_dates": 359,
+                "ip": "103.247.3.8",
+                "last_marked": "2019-09-19",
+                "last_measured": "2019-09-19",
+                "marked_dates": 225
+            },
+            {
+                "confidence": 0.971698,
+                "data_dates": 318,
+                "ip": "27.111.229.175",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 309
+            },
+            {
+                "confidence": 0.974922,
+                "data_dates": 319,
+                "ip": "103.247.3.68",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 311
+            },
+            {
+                "confidence": 0.973333,
+                "data_dates": 225,
+                "ip": "80.249.212.104",
+                "last_marked": "2020-05-26",
+                "last_measured": "2020-05-26",
+                "marked_dates": 219
+            },
+            {
+                "confidence": 0.783133,
+                "data_dates": 664,
+                "ip": "195.66.226.214",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 520
+            },
+            {
+                "confidence": 0.28,
+                "data_dates": 100,
+                "ip": "103.247.3.45",
+                "last_marked": "2018-06-13",
+                "last_measured": "2018-06-13",
+                "marked_dates": 28
+            },
+            {
+                "confidence": 0.974684,
+                "data_dates": 316,
+                "ip": "198.32.212.5",
+                "last_marked": "2020-08-28",
+                "last_measured": "2020-08-28",
+                "marked_dates": 308
+            },
+            {
+                "confidence": 0.590062,
+                "data_dates": 322,
+                "ip": "103.247.3.41",
+                "last_marked": "2019-08-12",
+                "last_measured": "2019-08-12",
+                "marked_dates": 190
+            },
+            {
+                "confidence": 0.974922,
+                "data_dates": 319,
+                "ip": "103.247.3.53",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 311
+            },
+            {
+                "confidence": 0.974922,
+                "data_dates": 319,
+                "ip": "103.247.3.36",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 311
+            },
+            {
+                "confidence": 0.5875,
+                "data_dates": 320,
+                "ip": "103.247.3.43",
+                "last_marked": "2019-01-30",
+                "last_measured": "2019-02-12",
+                "marked_dates": 188
+            },
+            {
+                "confidence": 0.783133,
+                "data_dates": 664,
+                "ip": "195.66.238.214",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 520
+            }
+        ]
+    },
+    {
+        "asn": 51088,
+        "max_confidence": 0.971053,
+        "name": "A2B, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.971053,
+                "data_dates": 380,
+                "ip": "80.249.208.209",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 369
+            }
+        ]
+    },
+    {
+        "asn": 198290,
+        "max_confidence": 0.00223214,
+        "name": "AS-GITS, LU",
+        "notes": "",
+        "vps": [
+            {
+                "confidence": 0.00223214,
+                "data_dates": 448,
+                "ip": "37.49.236.123",
+                "last_marked": "2018-03-08",
+                "last_measured": "2020-08-31",
+                "marked_dates": 1
+            }
+        ]
+    },
+    {
+        "asn": 29075,
+        "max_confidence": 0.85209,
+        "name": "IELO IELO Main Network, FR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.85209,
+                "data_dates": 311,
+                "ip": "37.49.236.205",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 265
+            }
+        ]
+    },
+    {
+        "asn": 46997,
+        "max_confidence": 0.723404,
+        "name": "KEYSIGHT-NEMO-CHANTILLY-VA - Xceed Technologies, Inc, US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.723404,
+                "data_dates": 47,
+                "ip": "5.188.4.211",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 34
+            }
+        ]
+    },
+    {
+        "asn": 7575,
+        "max_confidence": 0.127168,
+        "name": "AARNET-AS-AP Australian Academic and Reasearch Network (AARNet), AU",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.126074,
+                "data_dates": 698,
+                "ip": "198.32.176.177",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 88
+            },
+            {
+                "confidence": 0.127168,
+                "data_dates": 692,
+                "ip": "45.127.172.46",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 88
+            }
+        ]
+    },
+    {
+        "asn": 34968,
+        "max_confidence": 0.947368,
+        "name": "IUNXI, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.947368,
+                "data_dates": 380,
+                "ip": "80.249.209.81",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 360
+            }
+        ]
+    },
+    {
+        "asn": 20932,
+        "max_confidence": 0.285088,
+        "name": "SIG-ST Service Telecom, CH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.285088,
+                "data_dates": 456,
+                "ip": "192.65.185.142",
+                "last_marked": "2018-07-22",
+                "last_measured": "2020-08-31",
+                "marked_dates": 130
+            }
+        ]
+    },
+    {
+        "asn": 64271,
+        "max_confidence": 0.88125,
+        "name": "RIXCLOUD-INC - rixCloud, US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.820755,
+                "data_dates": 106,
+                "ip": "80.249.213.3",
+                "last_marked": "2020-02-24",
+                "last_measured": "2020-02-24",
+                "marked_dates": 87
+            },
+            {
+                "confidence": 0.294118,
+                "data_dates": 289,
+                "ip": "161.129.32.1",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 85
+            },
+            {
+                "confidence": 0.88125,
+                "data_dates": 160,
+                "ip": "80.249.212.227",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 141
+            }
+        ]
+    },
+    {
+        "asn": 24482,
+        "max_confidence": 0.885496,
+        "name": "SGGS-AS-AP SG.GS, SG",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.883333,
+                "data_dates": 120,
+                "ip": "195.66.226.38",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 106
+            },
+            {
+                "confidence": 0.706667,
+                "data_dates": 450,
+                "ip": "37.49.236.228",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 318
+            },
+            {
+                "confidence": 0.885496,
+                "data_dates": 131,
+                "ip": "187.16.208.144",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 116
+            },
+            {
+                "confidence": 0.793651,
+                "data_dates": 693,
+                "ip": "203.175.175.15",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 550
+            },
+            {
+                "confidence": 0.717391,
+                "data_dates": 460,
+                "ip": "217.29.66.158",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 330
+            },
+            {
+                "confidence": 0.718563,
+                "data_dates": 501,
+                "ip": "195.208.209.109",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 360
+            },
+            {
+                "confidence": 0.713666,
+                "data_dates": 461,
+                "ip": "198.32.160.242",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 329
+            },
+            {
+                "confidence": 0.883333,
+                "data_dates": 120,
+                "ip": "80.249.210.153",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 106
+            },
+            {
+                "confidence": 0.796562,
+                "data_dates": 698,
+                "ip": "27.111.228.159",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 556
+            },
+            {
+                "confidence": 0.717345,
+                "data_dates": 467,
+                "ip": "91.206.52.205",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 335
+            },
+            {
+                "confidence": 0.883333,
+                "data_dates": 120,
+                "ip": "80.81.193.18",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 106
+            },
+            {
+                "confidence": 0.705263,
+                "data_dates": 475,
+                "ip": "194.68.123.226",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 335
+            }
+        ]
+    },
+    {
+        "asn": 29467,
+        "max_confidence": 0.930556,
+        "name": "LUXNETWORK Located in Dudelange, Luxembourg, LU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.930556,
+                "data_dates": 288,
+                "ip": "80.249.210.208",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 268
+            }
+        ]
+    },
+    {
+        "asn": 48292,
+        "max_confidence": 0.6,
+        "name": "CIKLET, TR",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.6,
+                "data_dates": 5,
+                "ip": "194.50.19.65",
+                "last_marked": "2020-07-19",
+                "last_measured": "2020-07-21",
+                "marked_dates": 3
+            }
+        ]
+    },
+    {
+        "asn": 39591,
+        "max_confidence": 0.951219,
+        "name": "GLOBAL-E, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.951219,
+                "data_dates": 369,
+                "ip": "80.249.208.152",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 351
+            }
+        ]
+    },
+    {
+        "asn": 16552,
+        "max_confidence": 0.925,
+        "name": "TIGGEE - Tiggee LLC, US",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.925,
+                "data_dates": 120,
+                "ip": "80.249.214.44",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 111
+            }
+        ]
+    },
+    {
+        "asn": 34224,
+        "max_confidence": 0.927505,
+        "name": "NETERRA-AS, BG",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.927505,
+                "data_dates": 469,
+                "ip": "94.156.252.18",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 435
+            }
+        ]
+    },
+    {
+        "asn": 19016,
+        "max_confidence": 0.269444,
+        "name": "WCG-AS - Westman Communications Group, CA",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.269444,
+                "data_dates": 360,
+                "ip": "208.115.136.119",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-21",
+                "marked_dates": 97
+            }
+        ]
+    },
+    {
+        "asn": 15435,
+        "max_confidence": 0.854305,
+        "name": "KABELFOON CAIW Autonomous System, NL",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.854305,
+                "data_dates": 453,
+                "ip": "80.249.208.149",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 387
+            }
+        ]
+    },
+    {
+        "asn": 30132,
+        "max_confidence": 0.850549,
+        "name": "ISC-F-AS - Internet Systems Consortium, Inc., US",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.850549,
+                "data_dates": 455,
+                "ip": "80.249.208.111",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 387
+            }
+        ]
+    },
+    {
+        "asn": 13237,
+        "max_confidence": 0.89759,
+        "name": "LAMBDANET-AS European Backbone of AS13237, DE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.89759,
+                "data_dates": 664,
+                "ip": "195.66.224.99",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 596
+            },
+            {
+                "confidence": 0.865934,
+                "data_dates": 455,
+                "ip": "193.203.0.91",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 394
+            }
+        ]
+    },
+    {
+        "asn": 63927,
+        "max_confidence": 0.966102,
+        "name": "RISE-HK RISE, HK",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.966102,
+                "data_dates": 177,
+                "ip": "43.226.4.1",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 171
+            },
+            {
+                "confidence": 0.675214,
+                "data_dates": 468,
+                "ip": "43.226.4.2",
+                "last_marked": "2020-02-15",
+                "last_measured": "2020-02-15",
+                "marked_dates": 316
+            }
+        ]
+    },
+    {
+        "asn": 18106,
+        "max_confidence": 0.751783,
+        "name": "VIEWQWEST-SG-AP Viewqwest Pte Ltd, SG",
+        "notes": "Filtering Via AMSIX Route Server;Filtering;",
+        "vps": [
+            {
+                "confidence": 0.751783,
+                "data_dates": 701,
+                "ip": "202.73.40.45",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 527
+            },
+            {
+                "confidence": 0.751073,
+                "data_dates": 699,
+                "ip": "27.111.228.6",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 525
+            }
+        ]
+    },
+    {
+        "asn": 15547,
+        "max_confidence": 0.864035,
+        "name": "NETPLUS, CH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.864035,
+                "data_dates": 456,
+                "ip": "192.65.185.195",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 394
+            },
+            {
+                "confidence": 0.848214,
+                "data_dates": 448,
+                "ip": "37.49.236.156",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 380
+            },
+            {
+                "confidence": 0.851931,
+                "data_dates": 466,
+                "ip": "91.206.52.149",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 397
+            },
+            {
+                "confidence": 0.814371,
+                "data_dates": 167,
+                "ip": "198.32.160.113",
+                "last_marked": "2018-08-04",
+                "last_measured": "2018-11-21",
+                "marked_dates": 136
+            }
+        ]
+    },
+    {
+        "asn": 11708,
+        "max_confidence": 0.283737,
+        "name": "LINKCITY - City of North Kansas City, MO, US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.283737,
+                "data_dates": 289,
+                "ip": "72.22.223.9",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 82
+            }
+        ]
+    },
+    {
+        "asn": 31424,
+        "max_confidence": 0.854077,
+        "name": "NEXELLENT-AS AS31424 is operated by:, CH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.854077,
+                "data_dates": 466,
+                "ip": "91.206.52.17",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 398
+            }
+        ]
+    },
+    {
+        "asn": 200130,
+        "max_confidence": 0.0238095,
+        "name": "DIGITALOCEAN-ASN-1, US",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.0238095,
+                "data_dates": 42,
+                "ip": "95.85.0.2",
+                "last_marked": "2018-01-01",
+                "last_measured": "2018-03-22",
+                "marked_dates": 1
+            }
+        ]
+    },
+    {
+        "asn": 3267,
+        "max_confidence": 0.902857,
+        "name": "RUNNET, RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.902857,
+                "data_dates": 700,
+                "ip": "194.85.40.15",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 632
+            }
+        ]
+    },
+    {
+        "asn": 24516,
+        "max_confidence": 0.55409,
+        "name": "VIRTUTEL-AS-AP Virtutel Pty Ltd, AU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.338415,
+                "data_dates": 328,
+                "ip": "198.32.212.11",
+                "last_marked": "2019-12-08",
+                "last_measured": "2019-12-08",
+                "marked_dates": 111
+            },
+            {
+                "confidence": 0.55409,
+                "data_dates": 379,
+                "ip": "27.111.229.111",
+                "last_marked": "2020-03-18",
+                "last_measured": "2020-08-31",
+                "marked_dates": 210
+            },
+            {
+                "confidence": 0.552632,
+                "data_dates": 380,
+                "ip": "45.127.172.196",
+                "last_marked": "2020-03-18",
+                "last_measured": "2020-08-31",
+                "marked_dates": 210
+            }
+        ]
+    },
+    {
+        "asn": 49605,
+        "max_confidence": 0.867102,
+        "name": "DTS-AS DTS, IT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.867102,
+                "data_dates": 459,
+                "ip": "217.29.66.127",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 398
+            },
+            {
+                "confidence": 0.864807,
+                "data_dates": 466,
+                "ip": "91.206.52.102",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 403
+            }
+        ]
+    },
+    {
+        "asn": 7713,
+        "max_confidence": 0.963061,
+        "name": "TELKOMNET-AS-AP PT Telekomunikasi Indonesia, ID",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.963061,
+                "data_dates": 379,
+                "ip": "27.111.228.77",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 365
+            },
+            {
+                "confidence": 0.963061,
+                "data_dates": 379,
+                "ip": "27.111.228.155",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 365
+            }
+        ]
+    },
+    {
+        "asn": 58057,
+        "max_confidence": 0.0625,
+        "name": "GUS-ONLINE-AS, RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.0597015,
+                "data_dates": 67,
+                "ip": "194.50.99.88",
+                "last_marked": "2020-08-27",
+                "last_measured": "2020-08-27",
+                "marked_dates": 4
+            },
+            {
+                "confidence": 0.0625,
+                "data_dates": 48,
+                "ip": "2a0c:3b82:0:c232::6358",
+                "last_marked": "2020-08-27",
+                "last_measured": "2020-08-27",
+                "marked_dates": 3
+            }
+        ]
+    },
+    {
+        "asn": 39120,
+        "max_confidence": 0.947735,
+        "name": "CONVERGENZE-AS ISP services in Italy, IT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.825175,
+                "data_dates": 286,
+                "ip": "94.101.60.146",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 236
+            },
+            {
+                "confidence": 0.825784,
+                "data_dates": 287,
+                "ip": "94.101.60.147",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 237
+            },
+            {
+                "confidence": 0.947368,
+                "data_dates": 380,
+                "ip": "89.21.210.85",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 360
+            },
+            {
+                "confidence": 0.947735,
+                "data_dates": 287,
+                "ip": "89.21.210.87",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 272
+            },
+            {
+                "confidence": 0.947368,
+                "data_dates": 380,
+                "ip": "80.249.210.28",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 360
+            }
+        ]
+    },
+    {
+        "asn": 39122,
+        "max_confidence": 0.913121,
+        "name": "BLACKNIGHT-AS, IE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.913121,
+                "data_dates": 564,
+                "ip": "195.66.226.97",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 515
+            }
+        ]
+    },
+    {
+        "asn": 63956,
+        "max_confidence": 0.102874,
+        "name": "COLO-AS-AP Colocation Australia Pty Ltd, AU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.102874,
+                "data_dates": 661,
+                "ip": "103.52.116.4",
+                "last_marked": "2018-04-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 68
+            },
+            {
+                "confidence": 0.0971429,
+                "data_dates": 700,
+                "ip": "45.112.244.1",
+                "last_marked": "2018-04-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 68
+            }
+        ]
+    },
+    {
+        "asn": 59605,
+        "max_confidence": 0.211454,
+        "name": "ZAINGP-AS, BH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.211454,
+                "data_dates": 454,
+                "ip": "195.66.226.33",
+                "last_marked": "2019-02-12",
+                "last_measured": "2020-08-31",
+                "marked_dates": 96
+            }
+        ]
+    },
+    {
+        "asn": 20953,
+        "max_confidence": 0.968,
+        "name": "INFONL-AS info.nl/hf Amsterdam, The Netherlands, NL",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.968,
+                "data_dates": 375,
+                "ip": "80.249.208.203",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 363
+            }
+        ]
+    },
+    {
+        "asn": 28634,
+        "max_confidence": 0.0732759,
+        "name": "Life Tecnologia Ltda., BR",
+        "notes": "",
+        "vps": [
+            {
+                "confidence": 0.0729614,
+                "data_dates": 466,
+                "ip": "187.16.216.209",
+                "last_marked": "2020-06-10",
+                "last_measured": "2020-08-31",
+                "marked_dates": 34
+            },
+            {
+                "confidence": 0.0732759,
+                "data_dates": 464,
+                "ip": "187.16.216.131",
+                "last_marked": "2020-06-10",
+                "last_measured": "2020-08-31",
+                "marked_dates": 34
+            }
+        ]
+    },
+    {
+        "asn": 16347,
+        "max_confidence": 0.0424107,
+        "name": "RMI-FITECH, FR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.0424107,
+                "data_dates": 448,
+                "ip": "37.49.236.36",
+                "last_marked": "2020-04-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 19
+            }
+        ]
+    },
+    {
+        "asn": 49375,
+        "max_confidence": 0.5,
+        "name": "AS-TRUNKNETWORKS ***Transit Customers***, GB",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.285714,
+                "data_dates": 14,
+                "ip": "195.66.224.36",
+                "last_marked": "2018-08-04",
+                "last_measured": "2018-08-13",
+                "marked_dates": 4
+            },
+            {
+                "confidence": 0.5,
+                "data_dates": 8,
+                "ip": "5.57.80.146",
+                "last_marked": "2018-08-04",
+                "last_measured": "2018-08-07",
+                "marked_dates": 4
+            }
+        ]
+    },
+    {
+        "asn": 38880,
+        "max_confidence": 0.970588,
+        "name": "M21-AS-AP Micron21 Datacentre Pty Ltd, AU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.909283,
+                "data_dates": 474,
+                "ip": "38.122.147.130",
+                "last_marked": "2020-06-09",
+                "last_measured": "2020-06-09",
+                "marked_dates": 431
+            },
+            {
+                "confidence": 0.912908,
+                "data_dates": 643,
+                "ip": "195.66.224.165",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 587
+            },
+            {
+                "confidence": 0.896952,
+                "data_dates": 689,
+                "ip": "45.127.172.212",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 618
+            },
+            {
+                "confidence": 0.970588,
+                "data_dates": 34,
+                "ip": "80.249.212.75",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 33
+            },
+            {
+                "confidence": 0.868805,
+                "data_dates": 343,
+                "ip": "27.111.228.169",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 298
+            }
+        ]
+    },
+    {
+        "asn": 3280,
+        "max_confidence": 0.0735294,
+        "name": "HETNIX-AS, RO",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.0735294,
+                "data_dates": 68,
+                "ip": "77.83.243.7",
+                "last_marked": "2020-02-06",
+                "last_measured": "2020-06-04",
+                "marked_dates": 5
+            },
+            {
+                "confidence": 0.0298507,
+                "data_dates": 67,
+                "ip": "2a0b:b86::f",
+                "last_marked": "2020-04-17",
+                "last_measured": "2020-04-18",
+                "marked_dates": 2
+            }
+        ]
+    },
+    {
+        "asn": 34019,
+        "max_confidence": 0.971014,
+        "name": "HIVANE, FR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.963504,
+                "data_dates": 137,
+                "ip": "80.81.193.145",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 132
+            },
+            {
+                "confidence": 0.909333,
+                "data_dates": 375,
+                "ip": "37.49.236.71",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 341
+            },
+            {
+                "confidence": 0.971014,
+                "data_dates": 138,
+                "ip": "80.249.210.134",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 134
+            },
+            {
+                "confidence": 0.971014,
+                "data_dates": 138,
+                "ip": "91.206.52.233",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 134
+            }
+        ]
+    },
+    {
+        "asn": 17639,
+        "max_confidence": 0.0726644,
+        "name": "CONVERGE-AS Converge ICT Solutions Inc., PH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.0495495,
+                "data_dates": 444,
+                "ip": "27.111.229.79",
+                "last_marked": "2019-12-09",
+                "last_measured": "2019-12-19",
+                "marked_dates": 22
+            },
+            {
+                "confidence": 0.0726644,
+                "data_dates": 289,
+                "ip": "202.69.160.152",
+                "last_marked": "2019-12-09",
+                "last_measured": "2020-08-31",
+                "marked_dates": 21
+            }
+        ]
+    },
+    {
+        "asn": 30844,
+        "max_confidence": 0.725191,
+        "name": "LIQUID-AS, GB",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.620795,
+                "data_dates": 327,
+                "ip": "196.223.14.55",
+                "last_marked": "2019-08-13",
+                "last_measured": "2019-08-15",
+                "marked_dates": 203
+            },
+            {
+                "confidence": 0.725191,
+                "data_dates": 131,
+                "ip": "196.60.8.215",
+                "last_marked": "2018-08-01",
+                "last_measured": "2018-08-19",
+                "marked_dates": 95
+            }
+        ]
+    },
+    {
+        "asn": 48362,
+        "max_confidence": 0.865546,
+        "name": "TKSWF-AS, AT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.861314,
+                "data_dates": 137,
+                "ip": "91.206.52.40",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 118
+            },
+            {
+                "confidence": 0.860465,
+                "data_dates": 129,
+                "ip": "80.81.193.139",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 111
+            },
+            {
+                "confidence": 0.865546,
+                "data_dates": 119,
+                "ip": "193.203.0.182",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 103
+            }
+        ]
+    },
+    {
+        "asn": 12779,
+        "max_confidence": 0.971053,
+        "name": "ITGATE, IT",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.891068,
+                "data_dates": 459,
+                "ip": "217.29.66.65",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 409
+            },
+            {
+                "confidence": 0.891239,
+                "data_dates": 331,
+                "ip": "195.66.226.31",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 295
+            },
+            {
+                "confidence": 0.971053,
+                "data_dates": 380,
+                "ip": "80.249.209.17",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 369
+            },
+            {
+                "confidence": 0.888393,
+                "data_dates": 448,
+                "ip": "37.49.236.177",
+                "last_marked": "2020-08-31",
+                "last_measured": "2020-08-31",
+                "marked_dates": 398
+            }
+        ]
+    },
+    {
+        "asn": 37100,
+        "max_confidence": 0.900826,
+        "name": "SEACOM-AS, MU",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.900826,
+                "data_dates": 605,
+                "ip": "105.16.0.247",
+                "last_marked": "2020-06-26",
+                "last_measured": "2020-08-23",
+                "marked_dates": 545
+            }
+        ]
+    },
+    {
+        "asn": 61955,
+        "max_confidence": 0.173333,
+        "name": "COLOCATIONIX-AS, DE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.173333,
+                "data_dates": 375,
+                "ip": "80.249.211.155",
+                "last_marked": "2019-10-27",
+                "last_measured": "2020-08-31",
+                "marked_dates": 65
+            },
+            {
+                "confidence": 0.0956522,
+                "data_dates": 345,
+                "ip": "195.66.224.13",
+                "last_marked": "2020-04-03",
+                "last_measured": "2020-08-31",
+                "marked_dates": 33
+            }
+        ]
+    },
+    {
+        "asn": 34288,
+        "max_confidence": 0.898571,
+        "name": "AS34288 EDU-ZG-CH - Public Schools in the Canton of Zug, CH",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.898571,
+                "data_dates": 700,
+                "ip": "109.233.180.32",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 629
+            },
+            {
+                "confidence": 0.89759,
+                "data_dates": 664,
+                "ip": "195.66.225.86",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 596
+            },
+            {
+                "confidence": 0.852321,
+                "data_dates": 474,
+                "ip": "80.81.194.119",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 404
+            }
+        ]
+    },
+    {
+        "asn": 51185,
+        "max_confidence": 0.87963,
+        "name": "ONECOM-AS, GB",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.719298,
+                "data_dates": 456,
+                "ip": "217.29.66.102",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 328
+            },
+            {
+                "confidence": 0.87963,
+                "data_dates": 108,
+                "ip": "80.81.195.143",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 95
+            },
+            {
+                "confidence": 0.716854,
+                "data_dates": 445,
+                "ip": "198.32.160.168",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 319
+            },
+            {
+                "confidence": 0.751799,
+                "data_dates": 278,
+                "ip": "198.32.243.181",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 209
+            },
+            {
+                "confidence": 0.87963,
+                "data_dates": 108,
+                "ip": "80.249.210.163",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 95
+            },
+            {
+                "confidence": 0.641975,
+                "data_dates": 243,
+                "ip": "198.32.125.181",
+                "last_marked": "2019-10-31",
+                "last_measured": "2019-10-31",
+                "marked_dates": 156
+            },
+            {
+                "confidence": 0.728889,
+                "data_dates": 450,
+                "ip": "195.66.227.90",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 328
+            }
+        ]
+    },
+    {
+        "asn": 28917,
+        "max_confidence": 0.75502,
+        "name": "FIORD-AS IP-transit operator in Russia and Ukraine, RU",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.75502,
+                "data_dates": 498,
+                "ip": "195.208.208.147",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 376
+            }
+        ]
+    },
+    {
+        "asn": 14840,
+        "max_confidence": 0.386842,
+        "name": "COMMCORP COMUNICACOES LTDA, BR",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.386842,
+                "data_dates": 380,
+                "ip": "186.211.128.32",
+                "last_marked": "2020-07-27",
+                "last_measured": "2020-08-31",
+                "marked_dates": 147
+            }
+        ]
+    },
+    {
+        "asn": 29140,
+        "max_confidence": 0.697674,
+        "name": "HOSTSERVER-AS Hostserver GmbH, DE",
+        "notes": "Filtering Via AMSIX Route Server;",
+        "vps": [
+            {
+                "confidence": 0.697674,
+                "data_dates": 473,
+                "ip": "80.81.194.59",
+                "last_marked": "2020-08-30",
+                "last_measured": "2020-08-31",
+                "marked_dates": 330
+            }
+        ]
+    },
+    {
+        "asn": 36351,
+        "max_confidence": 0.170807,
+        "name": "SOFTLAYER - SoftLayer Technologies Inc., US",
+        "notes": "Filtering;",
+        "vps": [
+            {
+                "confidence": 0.170807,
+                "data_dates": 644,
+                "ip": "198.32.176.207",
+                "last_marked": "2020-08-21",
+                "last_measured": "2020-08-31",
+                "marked_dates": 110
+            }
+        ]
+    }
+]

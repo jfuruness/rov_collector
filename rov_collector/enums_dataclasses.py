@@ -19,6 +19,7 @@ class Source(Enum):
 
     TMA = "Revisiting RPKI Route Origin Validation on the Data Plane"
     IS_BGP_SAFE_YET = "isbgpsafeyet.com"
+    ROV_RPKI_NET = "rov.rpki.net"
 
 
 @dataclass
