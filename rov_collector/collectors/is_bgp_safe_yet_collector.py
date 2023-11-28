@@ -31,6 +31,8 @@ class IsBGPSafeYetCollector(ROVCollector):
             elif "unsafe" in row["status"] or row["details"] == "signed":
                 # Not filtering
                 continue
+            # Other sources show these as adopting ROV so I'm going to assume
+            # it's correct here
             elif "safe" in row["status"] and row["details"] == "":
                 filter_type = FilterType.UNKNOWN
             else:
