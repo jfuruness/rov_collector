@@ -24,6 +24,7 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
+    "tqdm",
     "requests-cache==1.1.1",
     "matplotlib==3.5.2"
 ]

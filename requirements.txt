@@ -1,2 +1,3 @@
+tqdm
 requests-cache==1.1.1
 matplotlib==3.5.2

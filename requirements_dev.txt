@@ -1,3 +1,4 @@
+tqdm
 requests-cache==1.1.1
 matplotlib==3.5.2
 types-requests==2.31.0.10

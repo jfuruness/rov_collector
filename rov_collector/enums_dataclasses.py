@@ -17,10 +17,11 @@ class Source(Enum):
     (see README for credits)
     """
 
-    TMA = "Revisiting RPKI Route Origin Validation on the Data Plane"
-    IS_BGP_SAFE_YET = "isbgpsafeyet.com"
+    TMA = "Revisiting RPKI"
+    IS_BGP_SAFE_YET = "isbgpsafeyet"
     ROV_RPKI_NET = "rov.rpki.net"
     ROVISTA = "ROVISTA"
+    APNIC = "APNIC"
 
 
 @dataclass

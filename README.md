@@ -280,6 +280,32 @@ Bibtex:
 Github links:
 * [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/rovista_collector.py)
 
+#### https://stats.labs.apnic.net/rpki
+
+Explanation:
+
+I don't think this even has a paper, it's just a website detailing ROV measurements
+
+Paper URL: [Doesn't appear to have a paper]()
+
+Paper data sources: [doesn't appear to have a github](), [website](https://stats.labs.apnic.net/rpki)
+
+Bibtex:
+
+```
+
+@misc{mixed_deployment_7,
+title={RPKI},
+url={https://stats.labs.apnic.net/rpki},
+author={APNIC Labs},
+year={2023}
+}
+```
+
+Github links:
+* [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/apnic_collector.py)
+
+
 
 ## History
 * [rov\_collector](#rov\_collector)
