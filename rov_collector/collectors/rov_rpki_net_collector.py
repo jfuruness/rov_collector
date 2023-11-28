@@ -25,17 +25,17 @@ class ROVRPKINetCollector(ROVCollector):
             vps = list(sorted(as_info["vps"], key=lambda x: x["last_measured"]))
             assert vps
             percent = vps[-1]["confidence"]
-
-            rov_info[asn].append(
-                ROVInfo(
-                    asn=asn,
-                    # No info on peering vs all
-                    filter_type=FilterType.UNKNOWN,
-                    percent=percent,
-                    source=Source.ROV_RPKI_NET,
-                    metadata=as_info,
+            if float(percent) >= 0:
+                rov_info[asn].append(
+                    ROVInfo(
+                        asn=asn,
+                        # No info on peering vs all
+                        filter_type=FilterType.UNKNOWN,
+                        percent=percent,
+                        source=Source.ROV_RPKI_NET,
+                        metadata=as_info,
+                    )
                 )
-            )
 
         return rov_info
 
