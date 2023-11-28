@@ -189,6 +189,57 @@ Github links:
 * [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/rpki_collector.py)
 * [emailed CSV](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/data/rov.rpki.net.json)
 
+#### Keep your friends close, but your routeservers closer: Insights into RPKI validation in the internet
+
+Explanation:
+
+This paper describes a new way to obtain ROV AS information and shows a drastic increase in ROV adoption, almost 40% adoption
+
+Paper URL: [URL](file:///home/anon/Downloads/usenixsecurity23-hlavacek.pdf)
+
+Paper data sources: [github](https://www.dropbox.com/s/3zr7sjkyhdrdnap/rov-2022.tar.gz?dl=0)
+
+Bibtex:
+
+```
+@inproceedings{10.5555/3620237.3620508,
+author = {Hlavacek, Tomas and Shulman, Haya and Vogel, Niklas and Waidner, Michael},
+title = {Keep Your Friends Close, but Your Routeservers Closer: Insights into RPKI Validation in the Internet},
+year = {2023},
+isbn = {978-1-939133-37-3},
+publisher = {USENIX Association},
+address = {USA},
+booktitle = {Proceedings of the 32nd USENIX Conference on Security Symposium},
+articleno = {271},
+numpages = {18},
+location = {Anaheim, CA, USA},
+series = {SEC '23}
+}
+```
+
+Also adding another bibtex for a poster presentation about this topic by the same authors that seems to be a subset of this work:
+
+```
+@inproceedings{10.1145/3548606.3563523,
+author = {Shulman, Haya and Vogel, Niklas and Waidner, Michael},
+title = {Poster: Insights into Global Deployment of RPKI Validation},
+year = {2022},
+isbn = {9781450394505},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3548606.3563523},
+doi = {10.1145/3548606.3563523},
+booktitle = {Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {3467–3469},
+numpages = {3},
+keywords = {rpki, prefix hijacks, bgp},
+location = {Los Angeles, CA, USA},
+series = {CCS '22}
+}
+```
+
+Github links: None as of Nov 28, 2023, I couldn't reproduce their paper or find the results.
+They've been emailed, awaiting a response
 
 
 
