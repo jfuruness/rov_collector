@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from typing import Optional
 
-from .rov_info import ROVInfo
+from .enums_dataclasses import ROVInfo
 
 
 class ROVCollector(ABC):

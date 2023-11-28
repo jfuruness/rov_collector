@@ -2,7 +2,7 @@ from collections import defaultdict
 import csv
 from pathlib import Path
 
-from rov_collector.enums_and_dataclasses import FilterType, ROVInfo, Source
+from rov_collector.enums_dataclasses import FilterType, ROVInfo, Source
 from rov_collector.rov_collector import ROVCollector
 
 
@@ -23,6 +23,7 @@ class TMACollector(ROVCollector):
                 asn = int(row["asn"].strip())
                 rov_info[asn].append(
                     ROVInfo(
+                        asn=asn,
                         filter_type=FilterType.UNKNOWN,
                         # There is only strong or weak, the percents are arbitrary
                         percent=1 if "strong" in row["confidence"] else 0.5,
