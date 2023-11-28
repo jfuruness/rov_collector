@@ -48,9 +48,11 @@ class ROVSourceGraph:
 
     def _get_counts(self) -> dict[str, int]:
         counts = {x.value: 0 for x in list(Source)}
+        counts["aggregate"] = 0
         with self.json_path.open() as f:
             data = json.load(f)
         for _, info_list in data.items():
             for inner_dict in info_list:
                 counts[inner_dict["source"]] += 1
+            counts["aggregate"] += 1
         return counts
