@@ -42,9 +42,9 @@ class TestROVCollector:
         # Add 1 to account for manually added entry
         assert len(json_rov_info) == len(rov_info) + 1
         # Make sure old JSON wasn't deleted
-        assert json_rov_info[self.dummy_asn_str] == dummy_entry[self.dummy_asn_str]
+        assert json_rov_info[self._dummy_asn_str] == dummy_entry[self._dummy_asn_str]
 
-    def save_dummy_entry(self, json_path: Path) -> dict[Any, Any]:
+    def _save_dummy_entry(self, json_path: Path) -> dict[Any, Any]:
         """Saves dummy entry in json and returns dummy entry"""
 
         with json_path.open("w") as f:
@@ -54,10 +54,10 @@ class TestROVCollector:
 
     def _get_dummy_entry(self) -> dict[Any, Any]:
         return {
-            self.dummy_asn_str: [
+            self._dummy_asn_str: [
                 {
                     # Pick a number that will never be used lol
-                    "asn": self.dummy_asn_str,
+                    "asn": self._dummy_asn_str,
                     "filter_type": "unknown",
                     "percent": "1",
                     "source": "dummy",
@@ -67,6 +67,6 @@ class TestROVCollector:
         }
 
     @property
-    def dummy_asn_str(self) -> str:
+    def _dummy_asn_str(self) -> str:
         """Returns a dummy ASN string that no one will ever use"""
         return "1" * 20

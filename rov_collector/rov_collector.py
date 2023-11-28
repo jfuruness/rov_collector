@@ -23,12 +23,11 @@ class ROVCollector(ABC):
             request_cache_db_path = Path("/tmp/") / f"{date.today()}.db"
         self.request_cache_db_path: Path = request_cache_db_path
 
-    @abstractmethod
     def run(self) -> None:
         """Download ROV data w/cached requests, add to old JSON file"""
 
         # Get new ROV info
-        new_rov_info = self._collector_rov_info()
+        new_rov_info = self._collect_rov_info()
 
         # Read in old ROV info
         if self.json_path.exists():

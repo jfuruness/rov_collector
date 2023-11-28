@@ -30,10 +30,10 @@ from a script:
 ```python
 from pathlib import Path
 
-from rov_collector import ROVCollector
-
-json_path = Path("/tmp/my_json_path.json")  # or set to None to avoid writing
-JSONCollector(json_path).run(graph=True)
+from rov_collector import rov_collector_classes
+json_path: Path = Path.home() / "Desktop" / "rov_info.json"
+for CollectorCls in rov_collector_classes:
+    CollectorCls(json_path=json_path).run()
 ```
 
 ## Installation
