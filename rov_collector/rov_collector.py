@@ -11,8 +11,11 @@ from .rov_info import ROVInfo
 class ROVCollector(ABC):
     """Abstract class for downloading ROV data"""
 
-    def __init__(self, json_path: Path = Path.home() / "Desktop" / "rov_info.json", request_cache_db_path: Optional[Path] = None):
-
+    def __init__(
+        self,
+        json_path: Path = Path.home() / "Desktop" / "rov_info.json",
+        request_cache_db_path: Optional[Path] = None,
+    ):
         self.json_path: Path = json_path
 
         # By default keep requests cached for a single day

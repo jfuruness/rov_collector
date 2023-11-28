@@ -19,19 +19,18 @@ class TMACollector(ROVCollector):
             reader = csv.DictReader(f, delimiter="-")
             reader.fieldnames = [x.strip() for x in reader.fieldnames]  # type: ignore
             for row in reader:
-
                 # Add ROV data
                 asn = int(row["asn"].strip())
                 rov_info[asn].append(
                     ROVInfo(
                         filter_type=FilterType.UNKNOWN,
                         # There is only strong or weak, the percents are arbitrary
-                        percent=1 if "strong" in row["confidence"] else .5,
+                        percent=1 if "strong" in row["confidence"] else 0.5,
                         source=Source.TMA,
                         metadata={
                             "name": row["name"].strip(),
-                            "confirmation": row["confirmation"].strip()
-                        }
+                            "confirmation": row["confirmation"].strip(),
+                        },
                     )
                 )
 

@@ -22,8 +22,7 @@ class TestROVCollector:
         dummy_entry = self._save_dummy_entry(json_path)
 
         collector = ROVCollectorCls(
-            json_path=json_path,
-            request_db_cache_path=tmp_path / "request_cache.db"
+            json_path=json_path, request_db_cache_path=tmp_path / "request_cache.db"
         )
         # Ensure ROV info is gathered
         rov_info = collector._collector_rov_info()
@@ -62,7 +61,7 @@ class TestROVCollector:
                     "filter_type": "unknown",
                     "percent": "1",
                     "source": "dummy",
-                    "metadata": {"test": "test"}
+                    "metadata": {"test": "test"},
                 }
             ]
         }
