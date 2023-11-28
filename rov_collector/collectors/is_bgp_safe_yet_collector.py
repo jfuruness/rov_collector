@@ -9,8 +9,10 @@ from rov_collector.rov_collector import ROVCollector
 class IsBGPSafeYetCollector(ROVCollector):
     """Downloads ROV data for 'Revisiting RPKI... (source in README)"""
 
-    URL = ("https://raw.githubusercontent.com/cloudflare/isbgpsafeyet.com/"
-           "master/data/operators.csv")
+    URL = (
+        "https://raw.githubusercontent.com/cloudflare/isbgpsafeyet.com/"
+        "master/data/operators.csv"
+    )
 
     def _collect_rov_info(self) -> defaultdict[int, list[ROVInfo]]:
         """Downloads and parses ROV info"""
@@ -38,7 +40,7 @@ class IsBGPSafeYetCollector(ROVCollector):
                     # There is only strong or weak, the percents are arbitrary
                     percent=1,
                     source=Source.IS_BGP_SAFE_YET,
-                    metadata={k: v for k, v in dict(row).items() if k != "asn"}
+                    metadata={k: v for k, v in dict(row).items() if k != "asn"},
                 )
             )
 
