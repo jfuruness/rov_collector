@@ -1,0 +1,4 @@
+include README.md
+include LICENSE.txt
+include rov_collectory/py.typed
+include tox.ini
