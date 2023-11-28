@@ -28,7 +28,7 @@ class TMACollector(ROVCollector):
                         # There is only strong or weak, the percents are arbitrary
                         percent=1 if "strong" in row["confidence"] else 0.5,
                         source=Source.TMA,
-                        metadata=dict(row)
+                        metadata=dict(row),
                     )
                 )
 
