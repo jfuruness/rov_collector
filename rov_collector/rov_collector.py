@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 from typing import Optional
 
+from requests_cache import requests_cache
+
 from .enums_dataclasses import ROVInfo
 
 
