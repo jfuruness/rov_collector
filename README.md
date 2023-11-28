@@ -106,7 +106,7 @@ Paper data sources: [github](https://github.com/nrodday/TMA-21)
 Bibtex:
 
 ```
-@inproceedings{RoddayCBKRSW21,
+@inproceedings{mixed_deployment_3,
   title = {Revisiting RPKI Route Origin Validation on the Data Plane},
   author = {Nils Rodday and Ítalo S. Cunha and Randy Bush and Ethan Katz-Bassett and Gabi Dreo Rodosek and Thomas C. Schmidt and Matthias Wählisch},
   year = {2021},
@@ -195,14 +195,14 @@ Explanation:
 
 This paper describes a new way to obtain ROV AS information and shows a drastic increase in ROV adoption, almost 40% adoption
 
-Paper URL: [URL](file:///home/anon/Downloads/usenixsecurity23-hlavacek.pdf)
+Paper URL: [URL](https://www.usenix.org/system/files/usenixsecurity23-hlavacek.pdf)
 
 Paper data sources: [github](https://www.dropbox.com/s/3zr7sjkyhdrdnap/rov-2022.tar.gz?dl=0)
 
 Bibtex:
 
 ```
-@inproceedings{10.5555/3620237.3620508,
+@inproceedings{mixed_deployment_4,
 author = {Hlavacek, Tomas and Shulman, Haya and Vogel, Niklas and Waidner, Michael},
 title = {Keep Your Friends Close, but Your Routeservers Closer: Insights into RPKI Validation in the Internet},
 year = {2023},
@@ -220,7 +220,7 @@ series = {SEC '23}
 Also adding another bibtex for a poster presentation about this topic by the same authors that seems to be a subset of this work:
 
 ```
-@inproceedings{10.1145/3548606.3563523,
+@inproceedings{mixed_deployment_5,
 author = {Shulman, Haya and Vogel, Niklas and Waidner, Michael},
 title = {Poster: Insights into Global Deployment of RPKI Validation},
 year = {2022},
@@ -239,10 +239,36 @@ series = {CCS '22}
 ```
 
 Github links: None as of Nov 28, 2023, I couldn't reproduce their paper or find the results.
-They've been emailed, awaiting a response
+Additionally, the README said that results and reproduction steps would be later published,
+not sure if they just forgot about this?
+They've been emailed, awaiting a response.
+This data set would be highly useful.
 
+#### ROVISTA
 
+Explanation:
 
+This paper references a website with a list of ROV ASes, including an API! Super helpful
+
+Paper URL: [Not linked, will be published IMC 2023]()
+
+Paper data sources: [github](https://github.com/lilanleo/RoVista), [website](https://rovista.netsecurelab.org/)
+
+Bibtex:
+
+```
+@inproceedings{mixed_deployment_6,
+  author = {Weitong Li and Zhexiao Lin and Mohammad Ishtiaq Ashiq Khan and Emile Aben and Romain Fontugne and Amreesh Phokeer and Taejoong Chung},
+  title = {{RoVista: Measuring and Understanding the Route Origin Validation (ROV) in RPKI}},
+  booktitle = {Proceedings of the ACM Internet Measurement Conference (IMC'23)},
+  address = {Montreal, Canada},
+  month = {October},
+  year = {2023}
+}
+```
+
+Github links:
+* [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/rovista_collector.py)
 
 
 ## History
