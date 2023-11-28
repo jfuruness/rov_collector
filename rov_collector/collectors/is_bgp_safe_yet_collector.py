@@ -27,11 +27,14 @@ class IsBGPSafeYetCollector(ROVCollector):
                 filter_type = FilterType.PEERS
             elif "filtering" in str(row["details"]):
                 filter_type = FilterType.ALL
-            elif "unsafe" in row["status"]:
+            # Not filtering
+            elif "unsafe" in row["status"] or row["details"] == "signed":
                 # Not filtering
                 continue
+            elif "safe" in row["status"] and row["details"] == "":
+                filter_type = FilterType.UNKNOWN
             else:
-                raise NotImplementedError("Case not accounted for")
+                raise NotImplementedError(f"Case not accounted for {row}")
 
             rov_info[asn].append(
                 ROVInfo(
@@ -57,5 +60,4 @@ class IsBGPSafeYetCollector(ROVCollector):
         rows = list(reader)
         csv_file.close()
         resp.close()
-        input(rows[:5])
         return rows

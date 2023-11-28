@@ -4,7 +4,7 @@ from typing import Any
 
 import pytest
 
-from rov_collector import TMACollector
+from rov_collector import rov_collector_classes
 
 
 class TestROVCollector:
@@ -13,7 +13,7 @@ class TestROVCollector:
     I know this needs more in depth testing, but this will do for now
     """
 
-    @pytest.mark.parametrize("ROVCollectorCls", [TMACollector])
+    @pytest.mark.parametrize("ROVCollectorCls", rov_collector_classes)
     def test_rov_collector(self, ROVCollectorCls, tmp_path):
         """System test for the ROV Collector"""
 
