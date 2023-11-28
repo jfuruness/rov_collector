@@ -43,7 +43,7 @@ class IsBGPSafeYetCollector(ROVCollector):
                     asn=asn,
                     filter_type=filter_type,
                     # There is only strong or weak, the percents are arbitrary
-                    percent=1,
+                    percent=100,
                     source=Source.IS_BGP_SAFE_YET,
                     metadata=dict(row),
                 )

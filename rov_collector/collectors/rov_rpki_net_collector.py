@@ -31,7 +31,7 @@ class ROVRPKINetCollector(ROVCollector):
                         asn=asn,
                         # No info on peering vs all
                         filter_type=FilterType.UNKNOWN,
-                        percent=percent,
+                        percent=percent * 100,
                         source=Source.ROV_RPKI_NET,
                         metadata=as_info,
                     )

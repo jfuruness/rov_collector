@@ -26,7 +26,7 @@ class TMACollector(ROVCollector):
                         asn=asn,
                         filter_type=FilterType.UNKNOWN,
                         # There is only strong or weak, the percents are arbitrary
-                        percent=1 if "strong" in row["confidence"] else 0.5,
+                        percent=100 if "strong" in row["confidence"] else 50,
                         source=Source.TMA,
                         metadata=dict(row),
                     )
