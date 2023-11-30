@@ -22,6 +22,7 @@ class Source(Enum):
     ROV_RPKI_NET = "rov.rpki.net"
     ROVISTA = "ROVISTA"
     APNIC = "APNIC"
+    FRIENDS = "Friends"
 
 
 @dataclass

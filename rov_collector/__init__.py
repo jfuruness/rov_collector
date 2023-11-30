@@ -1,6 +1,7 @@
 from .rov_collector import ROVCollector
 from .collectors import APNICCollector
 from .collectors import IsBGPSafeYetCollector
+from .collectors import FriendsCollector
 from .collectors import ROVISTACollector
 from .collectors import ROVRPKINetCollector
 from .collectors import TMACollector
@@ -11,6 +12,7 @@ __all__ = [
     "ROVCollector",
     "APNICCollector",
     "IsBGPSafeYetCollector",
+    "FriendsCollector",
     "ROVISTACollector",
     "ROVRPKINetCollector",
     "TMACollector",

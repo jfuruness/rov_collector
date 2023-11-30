@@ -22,9 +22,28 @@ class ROVSourceGraph:
         )
         sources, counts = zip(*sorted_sources_counts)
 
+        category_counts = self._get_category_counts()
+
         # Creating the bar graph
         plt.figure(figsize=(10, 6))
         bars = plt.bar(sources, counts, color="skyblue")
+
+        # Find the index for Source.FRIENDS.value
+        friends_index = sources.index(Source.FRIENDS.value)
+
+        # Starting point for the first segment in the stacked bar
+        bottom = 0
+
+        # Iterate over category_counts and stack them on top of each other
+        for category, count in category_counts.items():
+            plt.bar(
+                sources[friends_index],
+                count,
+                bottom=bottom,
+                label=f"Category {category} ({count} ASes)",
+            )
+            bottom += count
+
         plt.xlabel("Source")
         plt.ylabel("Number of ASes")
         plt.title("Number of ASes per Source")
@@ -41,6 +60,8 @@ class ROVSourceGraph:
                 ha="center",
             )
 
+        plt.legend()
+
         dir_ = out_dir if out_dir else self.json_path.parent / "rov_source_counts.png"
         plt.savefig(dir_, bbox_inches="tight")
         plt.close()
@@ -56,3 +77,26 @@ class ROVSourceGraph:
                 counts[inner_dict["source"]] += 1
             counts["aggregate"] += 1
         return counts
+
+    def _get_category_counts(self) -> dict[int, int]:
+        """Gets counts for each category of ASes for Haya's sims
+
+        Read their paper to understand (the friend's paper)
+        """
+
+        category_counts = {x: 0 for x in range(8)}
+
+        with self.json_path.open() as f:
+            data = json.load(f)
+        for _, info_list in data.items():
+            for inner_dict in info_list:
+                if inner_dict["source"] == Source.FRIENDS.value:
+                    category = int(inner_dict["metadata"]["category"])
+                    category_counts[category] += 1
+                    break
+        # Remove any category_counts that are 0
+        for k, v in category_counts.copy().items():
+            if v == 0:
+                del category_counts[k]
+
+        return category_counts

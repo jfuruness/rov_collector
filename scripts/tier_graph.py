@@ -56,5 +56,6 @@ class ROVTierGraph:
         plt.close()
         print(f"Saved to {dir_}")
 
+
 if __name__ == "__main__":
     ROVTierGraph(Path.home() / "Desktop" / "rov_info.json").run()
