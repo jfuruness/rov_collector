@@ -22,6 +22,11 @@ See the citations and explanations for all sources in the [Credits](#credits)
 When the collectors are run, they output results into a JSON object.
 This JSON is a dict where the key is ASN and the value is a list of ROVInfo objects
 
+The results of a run from Nov 30 2023 can be seen here. Additionally, from the "Friends" paper, it's important to note that category 4 and category 5 ASes are not considered as ROV adopting, but are included in the graph for clarity.
+![Image](https://drive.google.com/uc?export=view&id=1JxbyrKyGVKvNwUazSr_7sU_xijF5WUqK)
+![Image](https://drive.google.com/uc?export=view&id=1c_x8EkkZ05YXjWf0yzlgs5z2ECQitIDS)
+
+
 ## Usage
 * [rov\_collector](#rov\_collector)
 
@@ -203,7 +208,7 @@ Github links:
 
 Explanation:
 
-This paper describes a new way to obtain ROV AS information and shows a drastic increase in ROV adoption, almost 40% adoption
+This paper describes a new way to obtain ROV AS information and shows a drastic increase in ROV adoption, almost 27% adoption
 
 Paper URL: [URL](https://www.usenix.org/system/files/usenixsecurity23-hlavacek.pdf)
 
@@ -248,11 +253,17 @@ series = {CCS '22}
 }
 ```
 
-Github links: None as of Nov 28, 2023, I couldn't reproduce their paper or find the results.
-Additionally, the README said that results and reproduction steps would be later published,
-not sure if they just forgot about this?
-They've been emailed, awaiting a response.
-This data set would be highly useful.
+And adding another bibtex here that cites this work as showing 37.8% adoption. I don't think that number is correct, but it does cite it:
+
+```
+(I couldn't find the bibtex, but the paper is "The CURE to Vulnerabilities in RPKI Validation", led by Donika Mirdita, Haya Shulman, etc)
+```
+
+Github links: https://www.dropbox.com/s/3zr7sjkyhdrdnap/rov-2022.tar.gz?dl=0
+
+It's just a dropbox, and additionally, the README said that results and reproduction steps would be later published, not sure if they just forgot about this?
+
+I am able to run the code after some extra steps, which does take a long time to run. The resulting dataset is stored in the data/friends.json file.
 
 #### ROVISTA
 
