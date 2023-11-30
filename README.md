@@ -51,6 +51,12 @@ if __name__ == "__main__":
     main()
 ```
 
+From the command line:
+
+```
+rov_collector
+```
+
 ## Installation
 * [rov\_collector](#rov\_collector)
 
