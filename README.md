@@ -259,11 +259,11 @@ And adding another bibtex here that cites this work as showing 37.8% adoption. I
 (I couldn't find the bibtex, but the paper is "The CURE to Vulnerabilities in RPKI Validation", led by Donika Mirdita, Haya Shulman, etc)
 ```
 
-Github links: https://www.dropbox.com/s/3zr7sjkyhdrdnap/rov-2022.tar.gz?dl=0
+Github links: [Collector](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/collectors/friends_collector.py), [data](https://github.com/jfuruness/rov_collector/blob/master/rov_collector/data/friends.json)
 
 It's just a dropbox, and additionally, the README said that results and reproduction steps would be later published, not sure if they just forgot about this?
 
-I am able to run the code after some extra steps, which does take a long time to run. The resulting dataset is stored in the data/friends.json file.
+I am able to run the code after some extra steps, which does take a long time to run. The resulting dataset is stored in the data/friends.json file. It's important to note that this was with 8.95% network errors (I believe their paper had some of these as well) and this took place Nov 30 2023.
 
 #### ROVISTA
 
