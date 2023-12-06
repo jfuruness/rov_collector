@@ -1,6 +1,6 @@
 [project]
 name = "rov_collector"
-version = "1.0.0"
+version = "1.0.1"
 description = "Downloads ROV info from various sources"
 readme = "README.md"
 authors = [
@@ -24,7 +24,7 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "tqdm",
+    "tqdm==4.66.1",
     "requests-cache==1.1.1",
     "matplotlib==3.5.2"
 ]

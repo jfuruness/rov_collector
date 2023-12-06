@@ -6,7 +6,7 @@ from .collectors import ROVISTACollector
 from .collectors import ROVRPKINetCollector
 from .collectors import TMACollector
 from .collectors import rov_collector_classes
-from .rov_source_graph import ROVSourceGraph
+from .graphs import ROVSourceGraph
 
 __all__ = [
     "ROVCollector",

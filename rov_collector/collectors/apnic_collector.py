@@ -60,13 +60,13 @@ class APNICCollector(ROVCollector):
         """
 
         relevant_lines = self._get_relevant_lines(
-            url=self.URL + "rpki", start_line_str="CC", end_line_str="]);"
+            url=self.URL + "rpki", start_line_str="['CC', 'Country',", end_line_str="]);"
         )
 
         urls = list()
         for line in relevant_lines:
             matches = re.findall(r'.*<a href=\\"/(rpki/..)\\">..</a>.*', line)
-            assert len(matches) == 1
+            assert len(matches) == 1, matches
             urls.append(self.URL + matches[0])
         return tuple(urls)
 
@@ -77,6 +77,8 @@ class APNICCollector(ROVCollector):
 
         resp = self.session.get(url)
         resp.raise_for_status()
+        with open("/tmp/resp.html", "w") as f:
+            f.write(resp.text)
 
         relevant_lines = list()
         started = False
