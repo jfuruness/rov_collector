@@ -7,6 +7,7 @@ from .collectors import ROVRPKINetCollector
 from .collectors import TMACollector
 from .collectors import rov_collector_classes
 from .graphs import ROVSourceGraph
+from .graphs import ROVConfidenceDistributionGraph
 
 __all__ = [
     "ROVCollector",
@@ -17,5 +18,6 @@ __all__ = [
     "ROVRPKINetCollector",
     "TMACollector",
     "rov_collector_classes",
+    "ROVConfidenceDistributionGraph",
     "ROVSourceGraph",
 ]

@@ -23,7 +23,7 @@ class ROVISTACollector(ROVCollector):
                     ROVInfo(
                         asn=asn,
                         filter_type=FilterType.UNKNOWN,
-                        percent=float(row["ratio"]),
+                        percent=float(row["ratio"]) * 100,
                         source=Source.ROVISTA,
                         metadata=dict(row),
                     )

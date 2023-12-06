@@ -11,7 +11,7 @@ class ROVSourceGraph:
     def __init__(self, json_path: Path) -> None:
         self.json_path: Path = json_path
 
-    def run(self, out_dir: Optional[Path] = None) -> None:
+    def run(self, out_path: Optional[Path] = None) -> None:
         """Counts number of entries for each ASN and plots them"""
 
         source_counts = self._get_counts()
@@ -62,10 +62,13 @@ class ROVSourceGraph:
 
         plt.legend()
 
-        dir_ = out_dir if out_dir else self.json_path.parent / "rov_source_counts.png"
-        plt.savefig(dir_, bbox_inches="tight")
+        if not out_path:
+            dir_ = self.json_path.parent / "rov_adoption_graphs"
+            dir_.mkdir(parents=True, exist_ok=True)
+            out_path = dir_ / "rov_source_counts.png"
+        plt.savefig(out_path, bbox_inches="tight")
         plt.close()
-        print(f"Saved to {dir_}")
+        print(f"Source counts saved to {out_path}")
 
     def _get_counts(self) -> dict[str, int]:
         counts = {x.value: 0 for x in list(Source)}
