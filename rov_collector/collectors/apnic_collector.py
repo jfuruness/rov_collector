@@ -60,7 +60,9 @@ class APNICCollector(ROVCollector):
         """
 
         relevant_lines = self._get_relevant_lines(
-            url=self.URL + "rpki", start_line_str="['CC', 'Country',", end_line_str="]);"
+            url=self.URL + "rpki",
+            start_line_str="['CC', 'Country',",
+            end_line_str="]);",
         )
 
         urls = list()
