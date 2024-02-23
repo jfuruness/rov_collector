@@ -1,6 +1,11 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
-![Tests](https://github.com/jfuruness/rov_collector/actions/workflows/tests.yml/badge.svg)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+![Tests](https://github.com/jfuruness/bgpy/actions/workflows/tests.yml/badge.svg)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Checked with mypy](https://img.shields.io/badge/mypy-checked-2A6DBA.svg)](http://mypy-lang.org/)
+
 
 # rov\_collector
 
@@ -327,7 +332,7 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
-TODO
+1.1.3 Updated versions and dependencies
 
 ## Development/Contributing
 * [rov\_collector](#rov\_collector)

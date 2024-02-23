@@ -1,6 +1,6 @@
 [project]
 name = "rov_collector"
-version = "1.1.2"
+version = "1.1.3"
 description = "Downloads ROV info from various sources"
 readme = "README.md"
 authors = [
