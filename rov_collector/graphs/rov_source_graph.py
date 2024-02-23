@@ -55,7 +55,7 @@ class ROVSourceGraph:
             plt.text(
                 bar.get_x() + bar.get_width() / 2,
                 yval,
-                int(yval),
+                str(int(yval)),
                 va="bottom",
                 ha="center",
             )
