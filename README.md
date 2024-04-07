@@ -332,6 +332,7 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
+1.1.4 Fixed a typo in the MANIFEST.IN file that resulted in the data directly not being included in source distributions
 1.1.3 Updated versions and dependencies
 
 ## Development/Contributing
