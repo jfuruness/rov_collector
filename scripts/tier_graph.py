@@ -10,6 +10,9 @@ from bgpy.as_graphs import CAIDAASGraphConstructor
 from rov_collector import Source
 
 
+plt.rcParams['font.size'] = 14
+
+
 class ROVTierGraph:
     def __init__(self, json_path: Path) -> None:
         self.json_path: Path = json_path

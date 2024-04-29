@@ -332,6 +332,7 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
+1.1.6 Updated tier graph script (outside of the repo)
 1.1.5 Added a top level import for the enums
 1.1.4 Fixed a typo in the MANIFEST.IN file that resulted in the data directly not being included in source distributions
 1.1.3 Updated versions and dependencies
