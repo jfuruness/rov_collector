@@ -7,6 +7,8 @@
 [![Checked with mypy](https://img.shields.io/badge/mypy-checked-2A6DBA.svg)](http://mypy-lang.org/)
 
 
+# If you like this package, consider giving it a star, it let's me know I should continue to maintain it and helps with visibility. Thank you! :)
+
 # rov\_collector
 
 * [Description](#package-description)
@@ -332,6 +334,7 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
+1.1.7 README update
 1.1.6 Updated tier graph script (outside of the repo)
 1.1.5 Added a top level import for the enums
 1.1.4 Fixed a typo in the MANIFEST.IN file that resulted in the data directly not being included in source distributions
