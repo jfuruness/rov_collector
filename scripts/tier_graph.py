@@ -1,3 +1,4 @@
+from functools import partial
 import json
 from pathlib import Path
 from typing import Optional
@@ -10,8 +11,10 @@ from bgpy.as_graphs import CAIDAASGraphConstructor
 from rov_collector import Source
 
 
-plt.rcParams['font.size'] = 14
+plt.rcParams["font.size"] = 18
 
+
+NOOP = lambda x: True
 
 class ROVTierGraph:
     def __init__(self, json_path: Path) -> None:
@@ -19,22 +22,22 @@ class ROVTierGraph:
 
     def run(
         self,
+        as_topo,
         out_dir: Optional[Path] = None,
         allowed_rov_sources=frozenset([x.value for x in Source]),
+        fits_extra_reqs_func=NOOP,
     ) -> None:
         """Counts number of entries for each ASN and plots them"""
 
-        as_topo = CAIDAASGraphConstructor(tsv_path=None).run()
         asn_group_counts = {k: 0 for k in as_topo.asn_groups}
         with self.json_path.open() as f:
             data = json.load(f)
             for asn, info_list in tqdm(
-                data.items(),
-                total=len(data),
-                desc="Counting groups"
+                data.items(), total=len(data), desc="Counting groups"
             ):
                 if any(
-                    x['source'] in allowed_rov_sources and float(x['percent']) > 0
+                    x["source"] in allowed_rov_sources and float(x["percent"]) > 0
+                    and fits_extra_reqs_func(x)
                     for x in info_list
                 ):
                     for asn_group_key in asn_group_counts:
@@ -58,9 +61,13 @@ class ROVTierGraph:
         asn_group_percents["all"] = asn_group_percents["all_wout_ixps"]
         del asn_group_percents["all_wout_ixps"]
 
+        asn_group_counts["tier-1"] = asn_group_counts["input_clique"]
+        del asn_group_counts["input_clique"]
+        asn_group_percents["tier-1"] = asn_group_percents["input_clique"]
+        del asn_group_percents["input_clique"]
+
         asn_group_percents = {
-            k: v for k, v in
-            sorted(asn_group_percents.items(), key=lambda x: x[1])
+            k: v for k, v in sorted(asn_group_percents.items(), key=lambda x: x[1])
         }
         asn_group_counts = {k: asn_group_counts[k] for k in asn_group_percents}
 
@@ -86,7 +93,10 @@ class ROVTierGraph:
                 ha="center",
             )
 
-        default_name = f"{'_'.join(allowed_rov_sources)}.png".replace(' ', '_')
+        default_name = f"{'_'.join(allowed_rov_sources)}".replace(" ", "_")
+        if fits_extra_reqs_func != NOOP:
+            default_name += "_" + getattr(fits_extra_reqs_func, "__name__", "")
+        default_name += ".png"
         default_path = self.json_path.parent / "rov_group_counts" / default_name
         dir_ = out_dir if out_dir else default_path
         plt.savefig(dir_, bbox_inches="tight")
@@ -94,8 +104,24 @@ class ROVTierGraph:
         print(f"Saved to {dir_}")
 
 
+def fits_categories(x, categories: tuple[int, ...]) -> bool:
+    return int(x["metadata"].get("category")) in categories
+
+
+fits_categories_367 = partial(fits_categories, categories=(3, 6, 7))
+fits_categories_367.__name__ = "categories_367"  # type: ignore
+
+
 if __name__ == "__main__":
     in_path = Path.home() / "Desktop" / "rov_info.json"
-    ROVTierGraph(in_path).run()
+
+    as_topo = CAIDAASGraphConstructor(tsv_path=None).run()
+    ROVTierGraph(in_path).run(as_topo)
+    # Friends paper with only categories 3, 6, 7
+    ROVTierGraph(in_path).run(
+        as_topo,
+        allowed_rov_sources=frozenset([Source.FRIENDS.value]),
+        fits_extra_reqs_func=fits_categories_367,
+    )
     for source in Source:
-        ROVTierGraph(in_path).run(allowed_rov_sources=frozenset([source.value]))
+        ROVTierGraph(in_path).run(as_topo, allowed_rov_sources=frozenset([source.value]))
