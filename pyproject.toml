@@ -1,6 +1,6 @@
 [project]
 name = "rov_collector"
-version = "1.1.7"
+version = "1.1.8"
 description = "Downloads ROV info from various sources"
 readme = "README.md"
 authors = [
@@ -24,9 +24,9 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "tqdm==4.66.2",
-    "requests-cache==1.2.0",
-    "matplotlib==3.8.3"
+    "matplotlib==3.9.1.post1"
+    "requests-cache==1.2.1",
+    "tqdm==4.66.5",
 ]
 
 [project.urls]
@@ -35,14 +35,14 @@ homepage = "https://github.com/jfuruness/rov_collector.git"
 
 [project.optional-dependencies]
 test = [
-    "black==24.2.0",
-    "pre-commit==3.6.2",
-    "types-requests==2.31.0.20240218",
-    "mypy==1.8.0",
-    "flake8==7.0.0",
-    "tox==4.13.0",
-    "pytest-xdist==3.5.0",
-    "ruff==0.2.2",
+    "black==24.8.0",
+    "pre-commit==3.8.0",
+    "types-requests==2.32.0.20240712",
+    "mypy==1.11.1",
+    "flake8==7.1.1",
+    "tox==4.17.1",
+    "pytest-xdist==3.6.1",
+    "ruff==0.5.7",
 ]
 
 [tool.setuptools.package-data]
