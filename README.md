@@ -334,12 +334,12 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
-1.1.8 Dependency updates
-1.1.7 README update, and update to the script to put tier-1 instead of input_clique
-1.1.6 Updated tier graph script (outside of the repo)
-1.1.5 Added a top level import for the enums
-1.1.4 Fixed a typo in the MANIFEST.IN file that resulted in the data directly not being included in source distributions
-1.1.3 Updated versions and dependencies
+* 1.1.8 Dependency updates
+* 1.1.7 README update, and update to the script to put tier-1 instead of input_clique
+* 1.1.6 Updated tier graph script (outside of the repo)
+* 1.1.5 Added a top level import for the enums
+* 1.1.4 Fixed a typo in the MANIFEST.IN file that resulted in the data directly not being included in source distributions
+* 1.1.3 Updated versions and dependencies
 
 ## Development/Contributing
 * [rov\_collector](#rov\_collector)
