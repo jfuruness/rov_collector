@@ -13,7 +13,7 @@ class ROVCollector(ABC):
 
     def __init__(
         self,
-        json_path: Path = DIRS.user_desktop_dir / "rov_info.json",  # type: ignore
+        json_path: Path = Path(DIRS.user_desktop_dir) / "rov_info.json",
         requests_cache_db_path: Path | None = None,
     ):
         self.json_path: Path = json_path
