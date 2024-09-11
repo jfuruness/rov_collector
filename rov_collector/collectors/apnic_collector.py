@@ -1,11 +1,11 @@
-from collections import defaultdict
 import re
+from collections import defaultdict
 from typing import Any
 
 from tqdm import tqdm
 
-from rov_collector.enums_dataclasses import FilterType, ROVInfo, Source
 from rov_collector.rov_collector import ROVCollector
+from rov_collector.shared import FilterType, ROVInfo, Source
 
 
 class APNICCollector(ROVCollector):
@@ -79,8 +79,8 @@ class APNICCollector(ROVCollector):
 
         resp = self.session.get(url)
         resp.raise_for_status()
-        with open("/tmp/resp.html", "w") as f:
-            f.write(resp.text)
+        # with open("/tmp/resp.html", "w") as f:
+        #     f.write(resp.text)
 
         relevant_lines = list()
         started = False

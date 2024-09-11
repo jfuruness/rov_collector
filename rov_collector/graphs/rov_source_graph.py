@@ -1,17 +1,16 @@
 import json
 from pathlib import Path
-from typing import Optional
 
 import matplotlib.pyplot as plt
 
-from ..enums_dataclasses import Source
+from rov_collector.shared import Source, rov_collector_logger
 
 
 class ROVSourceGraph:
     def __init__(self, json_path: Path) -> None:
         self.json_path: Path = json_path
 
-    def run(self, out_path: Optional[Path] = None) -> None:
+    def run(self, out_path: Path | None = None) -> None:
         """Counts number of entries for each ASN and plots them"""
 
         source_counts = self._get_counts()
@@ -20,7 +19,7 @@ class ROVSourceGraph:
         sorted_sources_counts = sorted(
             source_counts.items(), key=lambda item: item[1], reverse=True
         )
-        sources, counts = zip(*sorted_sources_counts)
+        sources, counts = zip(*sorted_sources_counts, strict=True)
 
         category_counts = self._get_category_counts()
 
@@ -68,7 +67,7 @@ class ROVSourceGraph:
             out_path = dir_ / "rov_source_counts.png"
         plt.savefig(out_path, bbox_inches="tight")
         plt.close()
-        print(f"Source counts saved to {out_path}")
+        rov_collector_logger.info(f"Source counts saved to {out_path}")
 
     def _get_counts(self) -> dict[str, int]:
         counts = {x.value: 0 for x in list(Source)}

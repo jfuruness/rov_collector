@@ -1,5 +1,6 @@
 include README.md
 include LICENSE.txt
-include rov_collector/py.typed
+global-include **.typed
+global-include **.pyi
 recursive-include rov_collector/data *
 include tox.ini

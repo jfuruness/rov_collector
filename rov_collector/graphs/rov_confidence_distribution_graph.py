@@ -1,17 +1,16 @@
 import json
 from pathlib import Path
-from typing import Optional
 
 import matplotlib.pyplot as plt
 
-from ..enums_dataclasses import Source
+from rov_collector.shared import Source, rov_collector_logger
 
 
 class ROVConfidenceDistributionGraph:
     def __init__(self, json_path: Path) -> None:
         self.json_path: Path = json_path
 
-    def run(self, out_dir: Optional[Path] = None) -> None:
+    def run(self, out_dir: Path | None = None) -> None:
         """Counts number of entries for each ASN and plots them"""
 
         if not out_dir:
@@ -22,7 +21,7 @@ class ROVConfidenceDistributionGraph:
         self._plot_single_sources(source_data_dict, out_dir)
         self._plot_all_sources(source_data_dict, out_dir)
 
-        print(f"distribution saved to {out_dir}")
+        rov_collector_logger.info(f"distribution saved to {out_dir}")
 
     def _get_source_data_dict(self) -> dict[str, list[float]]:
         """Reads JSON and returns data dict of {source: [99, 87, 1, ...]}"""
@@ -30,7 +29,7 @@ class ROVConfidenceDistributionGraph:
 
         data: dict[str, list[float]] = {x.value: list() for x in list(Source)}
         with self.json_path.open() as f:
-            for asn, inner_list in json.load(f).items():
+            for _asn, inner_list in json.load(f).items():
                 for item in inner_list:
                     data[item["source"]].append(float(item["percent"]))
 

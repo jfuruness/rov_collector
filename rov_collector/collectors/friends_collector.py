@@ -1,9 +1,9 @@
-from collections import defaultdict
 import json
+from collections import defaultdict
 from pathlib import Path
 
-from rov_collector.enums_dataclasses import FilterType, ROVInfo, Source
 from rov_collector.rov_collector import ROVCollector
+from rov_collector.shared import FilterType, ROVInfo, Source
 
 
 class FriendsCollector(ROVCollector):

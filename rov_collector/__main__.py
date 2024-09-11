@@ -1,8 +1,10 @@
 from pathlib import Path
 
-from rov_collector import rov_collector_classes
-from rov_collector import ROVSourceGraph
-from rov_collector import ROVConfidenceDistributionGraph
+from rov_collector import (
+    ROVConfidenceDistributionGraph,
+    ROVSourceGraph,
+    rov_collector_classes,
+)
 
 
 def main():
@@ -11,7 +13,7 @@ def main():
     json_path.unlink(missing_ok=True)
     for CollectorCls in rov_collector_classes:
         # For some reason mypy is freaking out about the instantiation here
-        CollectorCls(json_path=json_path).run()  # type: ignore
+        CollectorCls(json_path=json_path).run()
     out_dir = json_path.parent / "rov_adoption_graphs"
     out_dir.mkdir(parents=True, exist_ok=True)
     ROVSourceGraph(json_path).run(out_dir / "rov_source_counts.png")

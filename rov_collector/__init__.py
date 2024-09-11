@@ -8,7 +8,7 @@ from .collectors import TMACollector
 from .collectors import rov_collector_classes
 from .graphs import ROVSourceGraph
 from .graphs import ROVConfidenceDistributionGraph
-from .enums_dataclasses import FilterType, Source, ROVInfo
+from .shared import FilterType, Source, ROVInfo
 
 
 __all__ = [

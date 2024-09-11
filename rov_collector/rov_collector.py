@@ -1,13 +1,11 @@
+import json
 from abc import ABC, abstractmethod
 from collections import defaultdict
-from datetime import date
-import json
 from pathlib import Path
-from typing import Optional
 
 import requests_cache
 
-from .enums_dataclasses import ROVInfo
+from .shared import DIRS, SINGLE_DAY_CACHE_DIR, ROVInfo
 
 
 class ROVCollector(ABC):
@@ -15,14 +13,14 @@ class ROVCollector(ABC):
 
     def __init__(
         self,
-        json_path: Path = Path.home() / "Desktop" / "rov_info.json",
-        requests_cache_db_path: Optional[Path] = None,
+        json_path: Path = DIRS.user_desktop_dir / "rov_info.json",  # type: ignore
+        requests_cache_db_path: Path | None = None,
     ):
         self.json_path: Path = json_path
 
         # By default keep requests cached for a single day
         if requests_cache_db_path is None:
-            requests_cache_db_path = Path("/tmp/") / f"{date.today()}.db"
+            requests_cache_db_path = SINGLE_DAY_CACHE_DIR / "requests_cache.db"
         self.requests_cache_db_path: Path = requests_cache_db_path
         self.session = requests_cache.CachedSession(str(self.requests_cache_db_path))
 
