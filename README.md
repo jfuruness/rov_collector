@@ -1,9 +1,9 @@
 Informational Badges:
 
-[![PyPI version](https://badge.fury.io/py/bgpy_pkg.svg)](https://badge.fury.io/py/bgpy_pkg)
+[![PyPI version](https://badge.fury.io/py/rov_collector.svg)](https://badge.fury.io/py/rov_collector)
 ![PyPy](https://img.shields.io/badge/PyPy-7.3.17-blue)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bgpy_pkg)](https://pypi.org/project/bgpy_pkg/)
-![Tests](https://github.com/jfuruness/bgpy/actions/workflows/tests.yml/badge.svg)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rov_collector)](https://pypi.org/project/rov_collector/)
+![Tests](https://github.com/jfuruness/rov_collector/actions/workflows/tests.yml/badge.svg)
 ![Linux](https://img.shields.io/badge/os-Linux-blue.svg)
 ![macOS Intel](https://img.shields.io/badge/os-macOS_Intel-lightgrey.svg)
 ![macOS ARM](https://img.shields.io/badge/os-macOS_ARM-lightgrey.svg)
@@ -345,6 +345,7 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
+* 1.1.10 README updates, tox updates
 * 1.1.9 Dependency and linter updates, README updates, support for many OSes
 * 1.1.8 Dependency updates
 * 1.1.7 README update, and update to the script to put tier-1 instead of input_clique
