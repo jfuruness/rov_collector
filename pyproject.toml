@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rov_collector"
-version = "1.1.10"
+version = "1.1.11"
 description = "Downloads ROV info from various sources"
 readme = "README.md"
 authors = [
@@ -73,7 +73,7 @@ rov_collector = ["py.typed"]
 # https://stackoverflow.com/a/76214408/8903959
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["rov_collector"]
+exclude = ["scripts"]
 
 [project.scripts]
 rov_collector = "rov_collector.__main__:main"

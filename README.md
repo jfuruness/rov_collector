@@ -345,6 +345,7 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
+* 1.1.11 Fixed an issue in pyproject.toml resulting in improper installs when done non-locally
 * 1.1.10 README updates, tox updates
 * 1.1.9 Dependency and linter updates, README updates, support for many OSes
 * 1.1.8 Dependency updates
