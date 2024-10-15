@@ -75,7 +75,7 @@ class ROVTierGraph:
         y_vals = list(asn_group_percents.values())
 
         # Creating the bar graph
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(10, 6), dpi=600)
         bars = plt.bar(x_vals, y_vals, color="skyblue")
         plt.xlabel("Count by AS group")
         plt.ylabel("Percent of ASes")
@@ -98,6 +98,7 @@ class ROVTierGraph:
             default_name += "_" + getattr(fits_extra_reqs_func, "__name__", "")
         default_name += ".png"
         default_path = self.json_path.parent / "rov_group_counts" / default_name
+        default_path.parent.mkdir(parents=True, exist_ok=True)
         dir_ = out_dir if out_dir else default_path
         plt.savefig(dir_, bbox_inches="tight")
         plt.close()

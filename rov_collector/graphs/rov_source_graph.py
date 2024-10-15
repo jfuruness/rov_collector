@@ -24,7 +24,8 @@ class ROVSourceGraph:
         category_counts = self._get_category_counts()
 
         # Creating the bar graph
-        plt.figure(figsize=(10, 6))
+        plt.rcParams.update({"font.size": 18})
+        plt.figure(figsize=(10, 6), dpi=600)
         bars = plt.bar(sources, counts, color="skyblue")
 
         # Find the index for Source.FRIENDS.value
