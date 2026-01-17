@@ -344,6 +344,7 @@ Github links:
 ## History
 * [rov\_collector](#rov\_collector)
 
+* 1.1.14 Removed duplicate mac version from github actions
 * 1.1.13 Updated deps, removed windows support due to lack of windows pypy wheels (which broke CI/CD), ruff settings updates
 * 1.1.12 Fixed low font size and low DPI
 * 1.1.11 Fixed an issue in pyproject.toml resulting in improper installs when done non-locally
