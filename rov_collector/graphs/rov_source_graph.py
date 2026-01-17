@@ -87,7 +87,7 @@ class ROVSourceGraph:
         Read their paper to understand (the friend's paper)
         """
 
-        category_counts = {x: 0 for x in range(8)}
+        category_counts = {x: 0 for x in range(8)}  # noqa
 
         with self.json_path.open() as f:
             data = json.load(f)

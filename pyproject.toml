@@ -23,6 +23,8 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
     "Environment :: Console",
@@ -36,10 +38,10 @@ classifiers = [
 
 requires-python = ">=3.10"
 dependencies = [
-    "platformdirs==4.3.6",
-    "matplotlib==3.9.2",
+    "platformdirs==4.5.1",
+    "matplotlib==3.10.8",
     "requests-cache==1.2.1",
-    "tqdm==4.67.0",
+    "tqdm==4.67.1",
 ]
 
 [project.urls]
@@ -48,15 +50,13 @@ homepage = "https://github.com/jfuruness/rov_collector.git"
 
 [project.optional-dependencies]
 test = [
-    "pytest==8.3.3",
-    "pre-commit==4.0.1",
-    "types-requests==2.32.0.20241016",
-    "types-tqdm==4.67.0.20241119",
-    "mypy==1.13.0",
-    "flake8==7.1.1",
-    "tox==4.23.2",
-    "pytest-xdist==3.6.1",
-    "ruff==0.8.0",
+    "pytest==9.0.2",
+    "pre-commit==4.5.1",
+    "mypy==1.19.1",
+    "tox==4.34.1",
+    "ruff==0.14.13",
+    "types-requests==2.32.4.20260107",
+    "types-tqdm-4.67.0.20250809",
 ]
 
 [tool.setuptools]
@@ -209,10 +209,6 @@ ignore = [
     # which is wrong. If something is deprecated, it'll raise a DeprecationWarning
     # Since this only had false positives for me, omitting it
     "UP035",
-    # Wants to turn isinstance(a, (x, y)) into isinstance(a, x | y)
-    # imo the first version is totally fine and most code will be formatted that way
-    # And the pep doesn't even advocate for switching lol
-    "UP038",
     # Ensures that you don't have pass in blank funcs that have a docstring
     # imo blank funcs are more readable with a pass than without a pass
     # because without a pass, maybe the developer just didn't finish the func
